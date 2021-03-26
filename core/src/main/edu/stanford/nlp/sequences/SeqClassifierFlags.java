@@ -1,7 +1,6 @@
 package edu.stanford.nlp.sequences;
 
 import edu.stanford.nlp.ling.CoreLabel;
-import edu.stanford.nlp.optimization.StochasticCalculateMethods;
 import edu.stanford.nlp.process.WordShapeClassifier;
 import edu.stanford.nlp.util.ReflectionLoading;
 import edu.stanford.nlp.util.logging.Redwood;
@@ -618,7 +617,6 @@ public class SeqClassifierFlags implements Serializable  {
   public int SGDPasses = -1;
   public int QNPasses = -1;
   public boolean tuneSGD = false;
-  public StochasticCalculateMethods stochasticMethod = StochasticCalculateMethods.NoneSpecified;
   public double initialGain = 0.1;
   public int stochasticBatchSize = 15;
   public boolean useSGD = false;
@@ -2117,14 +2115,6 @@ public class SeqClassifierFlags implements Serializable  {
         scaledSGDMethod = Integer.parseInt(val);
       } else if (key.equalsIgnoreCase("tuneSGD")) {
         tuneSGD = Boolean.parseBoolean(val);
-      } else if (key.equalsIgnoreCase("StochasticCalculateMethod")) {
-        if (val.equalsIgnoreCase("AlgorithmicDifferentiation")) {
-          stochasticMethod = StochasticCalculateMethods.AlgorithmicDifferentiation;
-        } else if (val.equalsIgnoreCase("IncorporatedFiniteDifference")) {
-          stochasticMethod = StochasticCalculateMethods.IncorporatedFiniteDifference;
-        } else if (val.equalsIgnoreCase("ExternalFinitedifference")) {
-          stochasticMethod = StochasticCalculateMethods.ExternalFiniteDifference;
-        }
       } else if (key.equalsIgnoreCase("initialGain")) {
         initialGain = Double.parseDouble(val);
       } else if (key.equalsIgnoreCase("stochasticBatchSize")) {

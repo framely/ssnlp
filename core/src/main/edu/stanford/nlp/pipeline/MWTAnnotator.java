@@ -65,14 +65,7 @@ public class MWTAnnotator implements Annotator {
       loadMultiWordTokenMappings(multiWordTokenMapping, props.getProperty(prefix + "mappingFile"));
       useDictionary = true;
     }
-    // if a part-of-speech tagging model was provided, use statistical MWT as well
-    if (!props.getProperty(prefix + "pos.model", "").equals("")) {
-      useStatisticalModel = true;
-      statisticalMWTAnnotator = new POSTaggerAnnotator("mwt.pos", props);
-      // load dictionary entries for the statistical MWT
-      loadMultiWordTokenMappings(statisticalMultiWordTokenMapping,
-          props.getProperty(prefix + "statisticalMappingFile"));
-    }
+
     // check whether or not to preserve casing, default is true
     preserveCasing = PropertiesUtils.getBool(props, prefix + "preserveCasing", true);
   }

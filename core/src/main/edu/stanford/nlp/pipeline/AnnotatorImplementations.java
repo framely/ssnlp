@@ -59,14 +59,6 @@ public class AnnotatorImplementations  {
   }
 
   /**
-   * Part of speech tag
-   */
-  public Annotator posTagger(Properties properties) {
-    String annotatorName = "pos";
-    return new POSTaggerAnnotator(annotatorName, properties);
-  }
-
-  /**
    * Annotate lemmas
    */
   public Annotator morpha(Properties properties, boolean verbose) {

@@ -499,7 +499,6 @@ public class StanfordCoreNLP extends AnnotationPipeline  {
     pool.put(STANFORD_SSPLIT, (props, impl) -> impl.wordToSentences(props));
     pool.put(STANFORD_MWT, (props, impl) -> impl.multiWordToken(props));
     pool.put(STANFORD_DOCDATE, (props, impl) -> impl.docDate(props));
-    pool.put(STANFORD_POS, (props, impl) -> impl.posTagger(props));
     pool.put(STANFORD_LEMMA, (props, impl) -> impl.morpha(props, false));
     pool.put(STANFORD_TOKENSREGEX, (props, impl) -> impl.tokensregex(props, STANFORD_TOKENSREGEX));
     pool.put(STANFORD_REGEXNER, (props, impl) -> impl.tokensRegexNER(props, STANFORD_REGEXNER));
