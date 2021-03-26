@@ -35,10 +35,6 @@ public class WordsToSentencesAnnotator implements Annotator  {
 
   private final boolean countLineNumbers;
 
-  public WordsToSentencesAnnotator() {
-    this(false);
-  }
-
 
   public WordsToSentencesAnnotator(Properties properties) {
     boolean nlSplitting = Boolean.parseBoolean(properties.getProperty(StanfordCoreNLP.NEWLINE_SPLITTER_PROPERTY, "false"));
@@ -122,17 +118,6 @@ public class WordsToSentencesAnnotator implements Annotator  {
 
   public WordsToSentencesAnnotator(boolean verbose) {
     this(verbose, false, new WordToSentenceProcessor<>());
-  }
-
-  public WordsToSentencesAnnotator(boolean verbose, String boundaryTokenRegex,
-                                   Set<String> boundaryToDiscard, Set<String> htmlElementsToDiscard,
-                                   String newlineIsSentenceBreak, String boundaryMultiTokenRegex,
-                                   Set<String> tokenRegexesToDiscard) {
-    this(verbose, false,
-            new WordToSentenceProcessor<>(boundaryTokenRegex, null,
-                    boundaryToDiscard, htmlElementsToDiscard,
-                    WordToSentenceProcessor.stringToNewlineIsSentenceBreak(newlineIsSentenceBreak),
-                    (boundaryMultiTokenRegex != null) ? TokenSequencePattern.compile(boundaryMultiTokenRegex) : null, tokenRegexesToDiscard));
   }
 
   private WordsToSentencesAnnotator(boolean verbose, boolean countLineNumbers,

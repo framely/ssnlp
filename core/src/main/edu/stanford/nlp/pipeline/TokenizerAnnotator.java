@@ -178,9 +178,6 @@ public class TokenizerAnnotator implements Annotator  {
     this(verbose, TokenizerType.English);
   }
 
-  public TokenizerAnnotator(String lang) {
-    this(true, lang, null);
-  }
 
   public TokenizerAnnotator(boolean verbose, TokenizerType lang) {
     this(verbose, lang.toString());
@@ -192,10 +189,6 @@ public class TokenizerAnnotator implements Annotator  {
 
   public TokenizerAnnotator(boolean verbose, String lang, String options) {
     this(verbose, lang == null ? null : PropertiesUtils.asProperties("tokenize.language", lang), options);
-  }
-
-  public TokenizerAnnotator(boolean verbose, Properties props) {
-    this(verbose, props, null);
   }
 
   public TokenizerAnnotator(boolean verbose, Properties props, String options) {
