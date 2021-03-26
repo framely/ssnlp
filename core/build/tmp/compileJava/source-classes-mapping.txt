@@ -1,0 +1,2064 @@
+edu/stanford/nlp/util/logging/LogFilter.java
+ edu.stanford.nlp.util.logging.LogFilter
+ edu.stanford.nlp.util.logging.LogFilter$ContainsMessage
+ edu.stanford.nlp.util.logging.LogFilter$HasChannel
+ edu.stanford.nlp.util.logging.LogFilter$MatchesMessage
+edu/stanford/nlp/optimization/Evaluator.java
+ edu.stanford.nlp.optimization.Evaluator
+edu/stanford/nlp/optimization/SGDMinimizer.java
+ edu.stanford.nlp.optimization.SGDMinimizer
+edu/stanford/nlp/pipeline/package-info.java
+ edu.stanford.nlp.pipeline.package-info
+edu/stanford/nlp/util/FileProcessor.java
+ edu.stanford.nlp.util.FileProcessor
+edu/stanford/nlp/pipeline/TaggedTextOutputter.java
+ edu.stanford.nlp.pipeline.TaggedTextOutputter
+edu/stanford/nlp/util/concurrent/SynchronizedInterner.java
+ edu.stanford.nlp.util.concurrent.SynchronizedInterner
+edu/stanford/nlp/tagger/maxent/HistoryTable.java
+ edu.stanford.nlp.tagger.maxent.HistoryTable
+edu/stanford/nlp/tagger/maxent/TagCount.java
+ edu.stanford.nlp.tagger.maxent.TagCount
+edu/stanford/nlp/optimization/Minimizer.java
+ edu.stanford.nlp.optimization.Minimizer
+edu/stanford/nlp/util/IntervalTree.java
+ edu.stanford.nlp.util.IntervalTree
+ edu.stanford.nlp.util.IntervalTree$ContainsIntervalFunction
+ edu.stanford.nlp.util.IntervalTree$ContainsValueFunction
+ edu.stanford.nlp.util.IntervalTree$PartialScoredList
+ edu.stanford.nlp.util.IntervalTree$TreeNode
+ edu.stanford.nlp.util.IntervalTree$TreeNodeIterator
+edu/stanford/nlp/maxent/DataGeneric.java
+ edu.stanford.nlp.maxent.DataGeneric
+edu/stanford/nlp/util/concurrent/package-info.java
+ edu.stanford.nlp.util.concurrent.package-info
+edu/stanford/nlp/pipeline/InlineXMLOutputter.java
+ edu.stanford.nlp.pipeline.InlineXMLOutputter
+edu/stanford/nlp/objectbank/package-info.java
+ edu.stanford.nlp.objectbank.package-info
+edu/stanford/nlp/optimization/HasInitial.java
+ edu.stanford.nlp.optimization.HasInitial
+edu/stanford/nlp/tagger/maxent/Dictionary.java
+ edu.stanford.nlp.tagger.maxent.Dictionary
+edu/stanford/nlp/tagger/maxent/AmbiguityClasses.java
+ edu.stanford.nlp.tagger.maxent.AmbiguityClasses
+edu/stanford/nlp/optimization/AbstractCachingDiffFloatFunction.java
+ edu.stanford.nlp.optimization.AbstractCachingDiffFloatFunction
+edu/stanford/nlp/sequences/CoolingSchedule.java
+ edu.stanford.nlp.sequences.CoolingSchedule
+ edu.stanford.nlp.sequences.CoolingSchedule$1
+ edu.stanford.nlp.sequences.CoolingSchedule$2
+edu/stanford/nlp/stats/TwoDimensionalCounterInterface.java
+ edu.stanford.nlp.stats.TwoDimensionalCounterInterface
+edu/stanford/nlp/optimization/SparseAdaGradMinimizer.java
+ edu.stanford.nlp.optimization.SparseAdaGradMinimizer
+edu/stanford/nlp/util/DeltaCollectionValuedMap.java
+ edu.stanford.nlp.util.DeltaCollectionValuedMap
+ edu.stanford.nlp.util.DeltaCollectionValuedMap$1
+ edu.stanford.nlp.util.DeltaCollectionValuedMap$SimpleEntry
+edu/stanford/nlp/stats/Distributions.java
+ edu.stanford.nlp.stats.Distributions
+edu/stanford/nlp/util/BijectiveFunction.java
+ edu.stanford.nlp.util.BijectiveFunction
+edu/stanford/nlp/sequences/SequenceModel.java
+ edu.stanford.nlp.sequences.SequenceModel
+edu/stanford/nlp/maxent/package-info.java
+ edu.stanford.nlp.maxent.package-info
+edu/stanford/nlp/util/HasInterval.java
+ edu.stanford.nlp.util.HasInterval
+edu/stanford/nlp/pipeline/AnnotationOutputter.java
+ edu.stanford.nlp.pipeline.AnnotationOutputter
+ edu.stanford.nlp.pipeline.AnnotationOutputter$Options
+edu/stanford/nlp/io/NumberRangeFileFilter.java
+ edu.stanford.nlp.io.NumberRangeFileFilter
+edu/stanford/nlp/util/Quintuple.java
+ edu.stanford.nlp.util.Quintuple
+edu/stanford/nlp/optimization/SGDWithAdaGradAndFOBOS.java
+ edu.stanford.nlp.optimization.SGDWithAdaGradAndFOBOS
+ edu.stanford.nlp.optimization.SGDWithAdaGradAndFOBOS$Prior
+edu/stanford/nlp/international/spanish/process/AnCoraPronounDisambiguator.java
+ edu.stanford.nlp.international.spanish.process.AnCoraPronounDisambiguator
+ edu.stanford.nlp.international.spanish.process.AnCoraPronounDisambiguator$PersonalPronounType
+edu/stanford/nlp/pipeline/Annotation.java
+ edu.stanford.nlp.pipeline.Annotation
+edu/stanford/nlp/ling/tokensregex/NodePattern.java
+ edu.stanford.nlp.ling.tokensregex.NodePattern
+ edu.stanford.nlp.ling.tokensregex.NodePattern$AnyNodePattern
+ edu.stanford.nlp.ling.tokensregex.NodePattern$ConjNodePattern
+ edu.stanford.nlp.ling.tokensregex.NodePattern$DisjNodePattern
+ edu.stanford.nlp.ling.tokensregex.NodePattern$EqualsNodePattern
+ edu.stanford.nlp.ling.tokensregex.NodePattern$NegateNodePattern
+edu/stanford/nlp/io/ui/OpenPageDialog.java
+ edu.stanford.nlp.io.ui.OpenPageDialog
+ edu.stanford.nlp.io.ui.OpenPageDialog$1
+ edu.stanford.nlp.io.ui.OpenPageDialog$2
+ edu.stanford.nlp.io.ui.OpenPageDialog$3
+edu/stanford/nlp/stats/DataSeries.java
+ edu.stanford.nlp.stats.DataSeries
+ edu.stanford.nlp.stats.DataSeries$AbstractDataSeries
+ edu.stanford.nlp.stats.DataSeries$ArrayDataSeries
+ edu.stanford.nlp.stats.DataSeries$AverageDataSeries
+ edu.stanford.nlp.stats.DataSeries$FunctionDataSeries
+ edu.stanford.nlp.stats.DataSeries$ListDataSeries
+edu/stanford/nlp/ling/tokensregex/matcher/ExactMatchCost.java
+ edu.stanford.nlp.ling.tokensregex.matcher.ExactMatchCost
+edu/stanford/nlp/process/WhitespaceTokenizer.java
+ edu.stanford.nlp.process.WhitespaceTokenizer
+ edu.stanford.nlp.process.WhitespaceTokenizer$WhitespaceTokenizerFactory
+edu/stanford/nlp/ling/HasLemma.java
+ edu.stanford.nlp.ling.HasLemma
+edu/stanford/nlp/ling/tokensregex/SequencePattern.java
+ edu.stanford.nlp.ling.tokensregex.SequencePattern
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$1
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$AndPatternExpr
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$BackRefPatternExpr
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$BackRefState
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$ConjEndState
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$ConjMatchStateInfo
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$ConjStartState
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$Frag
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$GroupEndState
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$GroupPatternExpr
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$GroupStartState
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$MatchState
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$MultiNodePatternExpr
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$MultiNodePatternState
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$NodePatternExpr
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$NodePatternState
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$NodesMatchChecker
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$OrPatternExpr
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$Parser
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$PatternExpr
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$RepeatPatternExpr
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$RepeatState
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$SeqEndState
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$SeqStartState
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$SequenceEndPatternExpr
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$SequencePatternExpr
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$SequenceStartPatternExpr
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$SpecialNodePatternExpr
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$State
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$ValuePatternExpr
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$ValueState
+ edu.stanford.nlp.ling.tokensregex.SequencePattern$VarGroupBindings
+edu/stanford/nlp/sequences/PlainTextDocumentReaderAndWriter.java
+ edu.stanford.nlp.sequences.PlainTextDocumentReaderAndWriter
+ edu.stanford.nlp.sequences.PlainTextDocumentReaderAndWriter$1
+ edu.stanford.nlp.sequences.PlainTextDocumentReaderAndWriter$OutputStyle
+edu/stanford/nlp/ling/CategoryWordTag.java
+ edu.stanford.nlp.ling.CategoryWordTag
+ edu.stanford.nlp.ling.CategoryWordTag$LabelFactoryHolder
+edu/stanford/nlp/tagger/io/TextTaggedFileReader.java
+ edu.stanford.nlp.tagger.io.TextTaggedFileReader
+edu/stanford/nlp/ling/tokensregex/SequenceMatcher.java
+ edu.stanford.nlp.ling.tokensregex.SequenceMatcher
+ edu.stanford.nlp.ling.tokensregex.SequenceMatcher$1
+ edu.stanford.nlp.ling.tokensregex.SequenceMatcher$2
+ edu.stanford.nlp.ling.tokensregex.SequenceMatcher$BasicMatchReplacement
+ edu.stanford.nlp.ling.tokensregex.SequenceMatcher$BranchState
+ edu.stanford.nlp.ling.tokensregex.SequenceMatcher$BranchStates
+ edu.stanford.nlp.ling.tokensregex.SequenceMatcher$FindType
+ edu.stanford.nlp.ling.tokensregex.SequenceMatcher$GroupMatchReplacement
+ edu.stanford.nlp.ling.tokensregex.SequenceMatcher$MatchReplacement
+ edu.stanford.nlp.ling.tokensregex.SequenceMatcher$MatchedStates
+ edu.stanford.nlp.ling.tokensregex.SequenceMatcher$NamedGroupMatchReplacement
+ edu.stanford.nlp.ling.tokensregex.SequenceMatcher$State
+edu/stanford/nlp/util/Generics.java
+ edu.stanford.nlp.util.Generics
+edu/stanford/nlp/util/MemoryMonitor.java
+ edu.stanford.nlp.util.MemoryMonitor
+ edu.stanford.nlp.util.MemoryMonitor$PeakMemoryMonitor
+edu/stanford/nlp/util/Triple.java
+ edu.stanford.nlp.util.Triple
+edu/stanford/nlp/tagger/maxent/package-info.java
+ edu.stanford.nlp.tagger.maxent.package-info
+edu/stanford/nlp/util/Scored.java
+ edu.stanford.nlp.util.Scored
+edu/stanford/nlp/util/Maps.java
+ edu.stanford.nlp.util.Maps
+edu/stanford/nlp/ling/tokensregex/matcher/Match.java
+ edu.stanford.nlp.ling.tokensregex.matcher.Match
+edu/stanford/nlp/ling/tokensregex/package-info.java
+ edu.stanford.nlp.ling.tokensregex.package-info
+edu/stanford/nlp/util/ReflectionLoading.java
+ edu.stanford.nlp.util.ReflectionLoading
+ edu.stanford.nlp.util.ReflectionLoading$ReflectionLoadingException
+edu/stanford/nlp/stats/Gamma.java
+ edu.stanford.nlp.stats.Gamma
+edu/stanford/nlp/tagger/maxent/CTBunkDict.java
+ edu.stanford.nlp.tagger.maxent.CTBunkDict
+edu/stanford/nlp/ling/CoreUtilities.java
+ edu.stanford.nlp.ling.CoreUtilities
+edu/stanford/nlp/pipeline/QuoteAnnotator.java
+ edu.stanford.nlp.pipeline.QuoteAnnotator
+edu/stanford/nlp/international/french/process/FrenchLexer.java
+ edu.stanford.nlp.international.french.process.FrenchLexer
+ edu.stanford.nlp.international.french.process.FrenchLexer$1
+ edu.stanford.nlp.international.french.process.FrenchLexer$UntokenizableOptions
+edu/stanford/nlp/util/concurrent/ThreadsafeProcessor.java
+ edu.stanford.nlp.util.concurrent.ThreadsafeProcessor
+edu/stanford/nlp/ling/Word.java
+ edu.stanford.nlp.ling.Word
+ edu.stanford.nlp.ling.Word$WordFactoryHolder
+edu/stanford/nlp/tagger/util/ConvertTreesToTags.java
+ edu.stanford.nlp.tagger.util.ConvertTreesToTags
+edu/stanford/nlp/maxent/CGRunner.java
+ edu.stanford.nlp.maxent.CGRunner
+ edu.stanford.nlp.maxent.CGRunner$LikelihoodFunction
+ edu.stanford.nlp.maxent.CGRunner$MonitorFunction
+edu/stanford/nlp/process/Morphology.java
+ edu.stanford.nlp.process.Morphology
+edu/stanford/nlp/process/StopList.java
+ edu.stanford.nlp.process.StopList
+edu/stanford/nlp/tagger/maxent/CtbDict.java
+ edu.stanford.nlp.tagger.maxent.CtbDict
+edu/stanford/nlp/util/HashIndex.java
+ edu.stanford.nlp.util.HashIndex
+ edu.stanford.nlp.util.HashIndex$1
+ edu.stanford.nlp.util.HashIndex$2
+edu/stanford/nlp/ling/tokensregex/parser/TokenSequenceParser.java
+ edu.stanford.nlp.ling.tokensregex.parser.TokenSequenceParser
+ edu.stanford.nlp.ling.tokensregex.parser.TokenSequenceParser$JJCalls
+ edu.stanford.nlp.ling.tokensregex.parser.TokenSequenceParser$LookaheadSuccess
+edu/stanford/nlp/util/StringUtils.java
+ edu.stanford.nlp.util.StringUtils
+edu/stanford/nlp/optimization/StochasticCalculateMethods.java
+ edu.stanford.nlp.optimization.StochasticCalculateMethods
+edu/stanford/nlp/optimization/StochasticMinimizer.java
+ edu.stanford.nlp.optimization.StochasticMinimizer
+ edu.stanford.nlp.optimization.StochasticMinimizer$PropertySetter
+ edu.stanford.nlp.optimization.StochasticMinimizer$setGain
+edu/stanford/nlp/sequences/ColumnDocumentReaderAndWriter.java
+ edu.stanford.nlp.sequences.ColumnDocumentReaderAndWriter
+ edu.stanford.nlp.sequences.ColumnDocumentReaderAndWriter$ColumnDocParser
+edu/stanford/nlp/util/TwoDimensionalMap.java
+ edu.stanford.nlp.util.TwoDimensionalMap
+ edu.stanford.nlp.util.TwoDimensionalMap$Entry
+ edu.stanford.nlp.util.TwoDimensionalMap$TwoDimensionalMapIterator
+ edu.stanford.nlp.util.TwoDimensionalMap$TwoDimensionalMapValueIterator
+edu/stanford/nlp/util/ThreeDimensionalCollectionValuedMap.java
+ edu.stanford.nlp.util.ThreeDimensionalCollectionValuedMap
+edu/stanford/nlp/process/DocumentPreprocessor.java
+ edu.stanford.nlp.process.DocumentPreprocessor
+ edu.stanford.nlp.process.DocumentPreprocessor$DocType
+ edu.stanford.nlp.process.DocumentPreprocessor$PlainTextIterator
+ edu.stanford.nlp.process.DocumentPreprocessor$PlainTextIterator$1
+ edu.stanford.nlp.process.DocumentPreprocessor$XMLIterator
+edu/stanford/nlp/tagger/maxent/documentation/MulticoreWrapperDemo.java
+ edu.stanford.nlp.tagger.maxent.documentation.MulticoreWrapperDemo
+ edu.stanford.nlp.tagger.maxent.documentation.MulticoreWrapperDemo$1
+edu/stanford/nlp/util/TwoDimensionalSet.java
+ edu.stanford.nlp.util.TwoDimensionalSet
+ edu.stanford.nlp.util.TwoDimensionalSet$TwoDimensionalSetIterator
+edu/stanford/nlp/util/BinaryHeapPriorityQueue.java
+ edu.stanford.nlp.util.BinaryHeapPriorityQueue
+ edu.stanford.nlp.util.BinaryHeapPriorityQueue$Entry
+edu/stanford/nlp/ling/tokensregex/parser/TokenSequenceParserTokenManager.java
+ edu.stanford.nlp.ling.tokensregex.parser.TokenSequenceParserTokenManager
+edu/stanford/nlp/io/PrintFile.java
+ edu.stanford.nlp.io.PrintFile
+edu/stanford/nlp/io/TeeStream.java
+ edu.stanford.nlp.io.TeeStream
+edu/stanford/nlp/util/MetaClass.java
+ edu.stanford.nlp.util.MetaClass
+ edu.stanford.nlp.util.MetaClass$ClassCreationException
+ edu.stanford.nlp.util.MetaClass$ClassFactory
+ edu.stanford.nlp.util.MetaClass$ConstructorNotFoundException
+edu/stanford/nlp/process/LowercaseFunction.java
+ edu.stanford.nlp.process.LowercaseFunction
+edu/stanford/nlp/ling/tokensregex/parser/TokenSequenceParserConstants.java
+ edu.stanford.nlp.ling.tokensregex.parser.TokenSequenceParserConstants
+edu/stanford/nlp/stats/TwoDimensionalCounter.java
+ edu.stanford.nlp.stats.TwoDimensionalCounter
+edu/stanford/nlp/util/FilePathProcessor.java
+ edu.stanford.nlp.util.FilePathProcessor
+edu/stanford/nlp/ling/HasContext.java
+ edu.stanford.nlp.ling.HasContext
+edu/stanford/nlp/util/GoogleNGramsSQLBacked.java
+ edu.stanford.nlp.util.GoogleNGramsSQLBacked
+edu/stanford/nlp/pipeline/TextAnnotationCreator.java
+ edu.stanford.nlp.pipeline.TextAnnotationCreator
+edu/stanford/nlp/pipeline/DefaultPaths.java
+ edu.stanford.nlp.pipeline.DefaultPaths
+edu/stanford/nlp/pipeline/AbstractInputStreamAnnotationCreator.java
+ edu.stanford.nlp.pipeline.AbstractInputStreamAnnotationCreator
+edu/stanford/nlp/util/logging/package-info.java
+ edu.stanford.nlp.util.logging.package-info
+edu/stanford/nlp/international/spanish/SpanishUnknownWordSignatures.java
+ edu.stanford.nlp.international.spanish.SpanishUnknownWordSignatures
+edu/stanford/nlp/process/CodepointCoreLabelProcessor.java
+ edu.stanford.nlp.process.CodepointCoreLabelProcessor
+edu/stanford/nlp/util/IntUni.java
+ edu.stanford.nlp.util.IntUni
+edu/stanford/nlp/io/NumberRangesFileFilter.java
+ edu.stanford.nlp.io.NumberRangesFileFilter
+edu/stanford/nlp/util/logging/RepeatedRecordHandler.java
+ edu.stanford.nlp.util.logging.RepeatedRecordHandler
+ edu.stanford.nlp.util.logging.RepeatedRecordHandler$ApproximateRepeatSemantics
+ edu.stanford.nlp.util.logging.RepeatedRecordHandler$ExactRepeatSemantics
+ edu.stanford.nlp.util.logging.RepeatedRecordHandler$PendingType
+ edu.stanford.nlp.util.logging.RepeatedRecordHandler$RepeatSemantics
+ edu.stanford.nlp.util.logging.RepeatedRecordHandler$RepeatedRecordInfo
+edu/stanford/nlp/ling/tokensregex/MultiCoreMapNodePattern.java
+ edu.stanford.nlp.ling.tokensregex.MultiCoreMapNodePattern
+ edu.stanford.nlp.ling.tokensregex.MultiCoreMapNodePattern$StringSequenceAnnotationPattern
+edu/stanford/nlp/util/logging/PrettyLogger.java
+ edu.stanford.nlp.util.logging.PrettyLogger
+edu/stanford/nlp/ling/tokensregex/SequenceMatchAction.java
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchAction
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchAction$BoundAction
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchAction$BranchAction
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchAction$NextMatchAction
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchAction$SeriesAction
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchAction$StartMatchAction
+edu/stanford/nlp/util/ScoredObject.java
+ edu.stanford.nlp.util.ScoredObject
+edu/stanford/nlp/optimization/LineSearcher.java
+ edu.stanford.nlp.optimization.LineSearcher
+edu/stanford/nlp/tagger/maxent/ExtractorFramesRare.java
+ edu.stanford.nlp.tagger.maxent.ASBCunkDetector
+ edu.stanford.nlp.tagger.maxent.CTBunkDictDetector
+ edu.stanford.nlp.tagger.maxent.CWordBooleanExtractor
+ edu.stanford.nlp.tagger.maxent.CaselessCompanyNameDetector
+ edu.stanford.nlp.tagger.maxent.CompanyNameDetector
+ edu.stanford.nlp.tagger.maxent.CtbPreDetector
+ edu.stanford.nlp.tagger.maxent.CtbSufDetector
+ edu.stanford.nlp.tagger.maxent.ExtractorAllCap
+ edu.stanford.nlp.tagger.maxent.ExtractorAllCapitalized
+ edu.stanford.nlp.tagger.maxent.ExtractorCNumber
+ edu.stanford.nlp.tagger.maxent.ExtractorCapC
+ edu.stanford.nlp.tagger.maxent.ExtractorCapDistLC
+ edu.stanford.nlp.tagger.maxent.ExtractorCapLCSeen
+ edu.stanford.nlp.tagger.maxent.ExtractorDash
+ edu.stanford.nlp.tagger.maxent.ExtractorFramesRare
+ edu.stanford.nlp.tagger.maxent.ExtractorFrenchAdjSuffix
+ edu.stanford.nlp.tagger.maxent.ExtractorFrenchAdvSuffix
+ edu.stanford.nlp.tagger.maxent.ExtractorFrenchNounSuffix
+ edu.stanford.nlp.tagger.maxent.ExtractorFrenchPluralSuffix
+ edu.stanford.nlp.tagger.maxent.ExtractorFrenchVerbSuffix
+ edu.stanford.nlp.tagger.maxent.ExtractorLetterDashDigit
+ edu.stanford.nlp.tagger.maxent.ExtractorLetterDigitDash
+ edu.stanford.nlp.tagger.maxent.ExtractorMidSentenceCap
+ edu.stanford.nlp.tagger.maxent.ExtractorMidSentenceCapC
+ edu.stanford.nlp.tagger.maxent.ExtractorNonAlphanumeric
+ edu.stanford.nlp.tagger.maxent.ExtractorNumeric
+ edu.stanford.nlp.tagger.maxent.ExtractorSpanishConditionalSuffix
+ edu.stanford.nlp.tagger.maxent.ExtractorSpanishGender
+ edu.stanford.nlp.tagger.maxent.ExtractorSpanishImperfectErIrSuffix
+ edu.stanford.nlp.tagger.maxent.ExtractorStartSentenceCap
+ edu.stanford.nlp.tagger.maxent.ExtractorSymbols
+ edu.stanford.nlp.tagger.maxent.ExtractorUCase
+ edu.stanford.nlp.tagger.maxent.ExtractorUpperDigitDash
+ edu.stanford.nlp.tagger.maxent.ExtractorWordPref
+ edu.stanford.nlp.tagger.maxent.ExtractorWordSuff
+ edu.stanford.nlp.tagger.maxent.ExtractorsConjunction
+ edu.stanford.nlp.tagger.maxent.PluralAcronymDetector
+ edu.stanford.nlp.tagger.maxent.RareExtractor
+edu/stanford/nlp/util/ConfusionMatrix.java
+ edu.stanford.nlp.util.ConfusionMatrix
+ edu.stanford.nlp.util.ConfusionMatrix$ConfusionGrid
+ edu.stanford.nlp.util.ConfusionMatrix$ConfusionGrid$Grid
+ edu.stanford.nlp.util.ConfusionMatrix$ConfusionGrid$Grid$1
+ edu.stanford.nlp.util.ConfusionMatrix$Contingency
+edu/stanford/nlp/util/Comparators.java
+ edu.stanford.nlp.util.Comparators
+edu/stanford/nlp/process/WhitespaceLexer.java
+ edu.stanford.nlp.process.WhitespaceLexer
+edu/stanford/nlp/util/AbstractIterator.java
+ edu.stanford.nlp.util.AbstractIterator
+edu/stanford/nlp/pipeline/AnnotationPipeline.java
+ edu.stanford.nlp.pipeline.AnnotationPipeline
+ edu.stanford.nlp.pipeline.AnnotationPipeline$1
+edu/stanford/nlp/ling/AbstractToken.java
+ edu.stanford.nlp.ling.AbstractToken
+edu/stanford/nlp/sequences/SeqClassifierFlags.java
+ edu.stanford.nlp.sequences.SeqClassifierFlags
+ edu.stanford.nlp.sequences.SeqClassifierFlags$SlashHyphenEnum
+edu/stanford/nlp/optimization/AbstractStochasticCachingDiffUpdateFunction.java
+ edu.stanford.nlp.optimization.AbstractStochasticCachingDiffUpdateFunction
+edu/stanford/nlp/pipeline/CoreQuote.java
+ edu.stanford.nlp.pipeline.CoreQuote
+edu/stanford/nlp/util/logging/Redwood.java
+ edu.stanford.nlp.util.logging.Redwood
+ edu.stanford.nlp.util.logging.Redwood$1
+ edu.stanford.nlp.util.logging.Redwood$ConsoleHandler
+ edu.stanford.nlp.util.logging.Redwood$FileHandler
+ edu.stanford.nlp.util.logging.Redwood$Flag
+ edu.stanford.nlp.util.logging.Redwood$MessageType
+ edu.stanford.nlp.util.logging.Redwood$Record
+ edu.stanford.nlp.util.logging.Redwood$RecordHandlerTree
+ edu.stanford.nlp.util.logging.Redwood$RecordHandlerTree$1
+ edu.stanford.nlp.util.logging.Redwood$RedwoodChannels
+ edu.stanford.nlp.util.logging.Redwood$Util
+ edu.stanford.nlp.util.logging.Redwood$Util$1
+edu/stanford/nlp/ling/tokensregex/types/Expressions.java
+ edu.stanford.nlp.ling.tokensregex.types.Expressions
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$AndExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$AssignableFunctionCallExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$CaseExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$CompositeValue
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$ConditionalExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$FieldExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$FunctionCallExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$IfExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$IndexedExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$ListExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$MethodCallExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$NotExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$OrExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$PrimitiveValue
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$RegexMatchResultVarExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$RegexMatchVarExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$RegexValue
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$SimpleCachedExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$SimpleExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$SimpleValue
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$TypedExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$VarAssignmentExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$VarExpression
+ edu.stanford.nlp.ling.tokensregex.types.Expressions$WrappedExpression
+edu/stanford/nlp/ling/tokensregex/MapNodePattern.java
+ edu.stanford.nlp.ling.tokensregex.MapNodePattern
+ edu.stanford.nlp.ling.tokensregex.MapNodePattern$1
+edu/stanford/nlp/optimization/DiffFunction.java
+ edu.stanford.nlp.optimization.DiffFunction
+edu/stanford/nlp/sequences/MUCDocumentReaderAndWriter.java
+ edu.stanford.nlp.sequences.MUCDocumentReaderAndWriter
+ edu.stanford.nlp.sequences.MUCDocumentReaderAndWriter$MUCDocumentParser
+edu/stanford/nlp/util/ArrayStringFilter.java
+ edu.stanford.nlp.util.ArrayStringFilter
+ edu.stanford.nlp.util.ArrayStringFilter$1
+ edu.stanford.nlp.util.ArrayStringFilter$Mode
+edu/stanford/nlp/ling/tokensregex/ComplexNodePattern.java
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$AbstractStringAnnotationPattern
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$AttributesEqualMatchChecker
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$IntegerAnnotationPattern
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$NilAnnotationPattern
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$NotNilAnnotationPattern
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$NumericAnnotationPattern
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$NumericAnnotationPattern$CmpType
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$NumericAnnotationPattern$CmpType$1
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$NumericAnnotationPattern$CmpType$2
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$NumericAnnotationPattern$CmpType$3
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$NumericAnnotationPattern$CmpType$4
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$NumericAnnotationPattern$CmpType$5
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$NumericAnnotationPattern$CmpType$6
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$NumericAnnotationPattern$CmpType$7
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$SequenceRegexPattern
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$StringAnnotationPattern
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$StringAnnotationRegexPattern
+ edu.stanford.nlp.ling.tokensregex.ComplexNodePattern$StringInSetAnnotationPattern
+edu/stanford/nlp/ling/Featurizable.java
+ edu.stanford.nlp.ling.Featurizable
+edu/stanford/nlp/util/HashableCoreMap.java
+ edu.stanford.nlp.util.HashableCoreMap
+ edu.stanford.nlp.util.HashableCoreMap$HashableCoreMapException
+edu/stanford/nlp/util/logging/VisibilityHandler.java
+ edu.stanford.nlp.util.logging.VisibilityHandler
+ edu.stanford.nlp.util.logging.VisibilityHandler$1
+ edu.stanford.nlp.util.logging.VisibilityHandler$State
+edu/stanford/nlp/tagger/maxent/ExtractorDistsim.java
+ edu.stanford.nlp.tagger.maxent.ExtractorDistsim
+edu/stanford/nlp/io/ReaderInputStream.java
+ edu.stanford.nlp.io.ReaderInputStream
+edu/stanford/nlp/io/RecordIterator.java
+ edu.stanford.nlp.io.RecordIterator
+edu/stanford/nlp/util/logging/RedwoodConfiguration.java
+ edu.stanford.nlp.util.logging.RedwoodConfiguration
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$1
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$2
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$3
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$Handlers
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$Handlers$1
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$Handlers$1$1
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$Handlers$2
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$Handlers$2$1
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$Handlers$3
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$Handlers$4
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$Handlers$5
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$Handlers$6
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$Handlers$7
+ edu.stanford.nlp.util.logging.RedwoodConfiguration$Thunk
+edu/stanford/nlp/util/MaxSizeConcurrentHashSet.java
+ edu.stanford.nlp.util.MaxSizeConcurrentHashSet
+edu/stanford/nlp/optimization/SGDToQNMinimizer.java
+ edu.stanford.nlp.optimization.SGDToQNMinimizer
+edu/stanford/nlp/ling/HasOriginalText.java
+ edu.stanford.nlp.ling.HasOriginalText
+edu/stanford/nlp/util/IntPair.java
+ edu.stanford.nlp.util.IntPair
+edu/stanford/nlp/optimization/SparseOnlineFunction.java
+ edu.stanford.nlp.optimization.SparseOnlineFunction
+edu/stanford/nlp/pipeline/WordsToSentencesAnnotator.java
+ edu.stanford.nlp.pipeline.WordsToSentencesAnnotator
+edu/stanford/nlp/io/package-info.java
+ edu.stanford.nlp.io.package-info
+edu/stanford/nlp/optimization/SQNMinimizer.java
+ edu.stanford.nlp.optimization.SQNMinimizer
+ edu.stanford.nlp.optimization.SQNMinimizer$SurpriseConvergence
+edu/stanford/nlp/stats/package-info.java
+ edu.stanford.nlp.stats.package-info
+edu/stanford/nlp/pipeline/CleanXmlAnnotator.java
+ edu.stanford.nlp.pipeline.CleanXmlAnnotator
+edu/stanford/nlp/pipeline/StanfordCoreNLP.java
+ edu.stanford.nlp.pipeline.StanfordCoreNLP
+ edu.stanford.nlp.pipeline.StanfordCoreNLP$1
+ edu.stanford.nlp.pipeline.StanfordCoreNLP$AnnotatorSignature
+ edu.stanford.nlp.pipeline.StanfordCoreNLP$OutputFormat
+edu/stanford/nlp/optimization/HasRegularizerParamRange.java
+ edu.stanford.nlp.optimization.HasRegularizerParamRange
+edu/stanford/nlp/pipeline/LabeledChunkIdentifier.java
+ edu.stanford.nlp.pipeline.LabeledChunkIdentifier
+ edu.stanford.nlp.pipeline.LabeledChunkIdentifier$LabelTagType
+edu/stanford/nlp/util/MutableLong.java
+ edu.stanford.nlp.util.MutableLong
+edu/stanford/nlp/util/LeastRecentlyUsedCache.java
+ edu.stanford.nlp.util.LeastRecentlyUsedCache
+ edu.stanford.nlp.util.LeastRecentlyUsedCache$LinkedList
+ edu.stanford.nlp.util.LeastRecentlyUsedCache$Node
+edu/stanford/nlp/ling/tokensregex/matcher/BoundedCostOrderedMap.java
+ edu.stanford.nlp.ling.tokensregex.matcher.BoundedCostOrderedMap
+edu/stanford/nlp/util/concurrent/InterruptibleMulticoreWrapper.java
+ edu.stanford.nlp.util.concurrent.InterruptibleMulticoreWrapper
+ edu.stanford.nlp.util.concurrent.InterruptibleMulticoreWrapper$FixedNamedThreadPoolExecutor
+ edu.stanford.nlp.util.concurrent.InterruptibleMulticoreWrapper$NamedTask
+edu/stanford/nlp/process/WordTokenFactory.java
+ edu.stanford.nlp.process.WordTokenFactory
+edu/stanford/nlp/stats/ProbabilityDistribution.java
+ edu.stanford.nlp.stats.ProbabilityDistribution
+edu/stanford/nlp/ling/tokensregex/types/Tags.java
+ edu.stanford.nlp.ling.tokensregex.types.Tags
+ edu.stanford.nlp.ling.tokensregex.types.Tags$TagsAnnotation
+edu/stanford/nlp/sequences/KBestSequenceFinder.java
+ edu.stanford.nlp.sequences.KBestSequenceFinder
+edu/stanford/nlp/util/PriorityQueue.java
+ edu.stanford.nlp.util.PriorityQueue
+edu/stanford/nlp/tagger/util/MakePrefixFile.java
+ edu.stanford.nlp.tagger.util.MakePrefixFile
+edu/stanford/nlp/tagger/maxent/documentation/TaggerDemo2.java
+ edu.stanford.nlp.tagger.maxent.documentation.TaggerDemo2
+edu/stanford/nlp/international/morph/MorphoFeatureSpecification.java
+ edu.stanford.nlp.international.morph.MorphoFeatureSpecification
+ edu.stanford.nlp.international.morph.MorphoFeatureSpecification$MorphoFeatureType
+edu/stanford/nlp/io/RegExFileFilter.java
+ edu.stanford.nlp.io.RegExFileFilter
+edu/stanford/nlp/stats/Counter.java
+ edu.stanford.nlp.stats.Counter
+edu/stanford/nlp/ling/LabelFactory.java
+ edu.stanford.nlp.ling.LabelFactory
+edu/stanford/nlp/pipeline/AnnotatorImplementations.java
+ edu.stanford.nlp.pipeline.AnnotatorImplementations
+edu/stanford/nlp/ling/DocumentReader.java
+ edu.stanford.nlp.ling.DocumentReader
+edu/stanford/nlp/ling/tokensregex/TokenSequenceMatcher.java
+ edu.stanford.nlp.ling.tokensregex.TokenSequenceMatcher
+edu/stanford/nlp/stats/EquivalenceClassEval.java
+ edu.stanford.nlp.stats.EquivalenceClassEval
+ edu.stanford.nlp.stats.EquivalenceClassEval$1
+ edu.stanford.nlp.stats.EquivalenceClassEval$2
+ edu.stanford.nlp.stats.EquivalenceClassEval$EqualityChecker
+ edu.stanford.nlp.stats.EquivalenceClassEval$Eval
+ edu.stanford.nlp.stats.EquivalenceClassEval$Eval$CollectionContainsChecker
+ edu.stanford.nlp.stats.EquivalenceClassEval$Factory
+edu/stanford/nlp/process/PTBTokenizer.java
+ edu.stanford.nlp.process.PTBTokenizer
+ edu.stanford.nlp.process.PTBTokenizer$PTBTokenizerFactory
+edu/stanford/nlp/util/IntQuadruple.java
+ edu.stanford.nlp.util.IntQuadruple
+edu/stanford/nlp/international/french/process/FrenchTokenizer.java
+ edu.stanford.nlp.international.french.process.FrenchTokenizer
+ edu.stanford.nlp.international.french.process.FrenchTokenizer$FrenchTokenizerFactory
+edu/stanford/nlp/stats/Counters.java
+ edu.stanford.nlp.stats.Counters
+ edu.stanford.nlp.stats.Counters$1
+ edu.stanford.nlp.stats.Counters$1$1
+ edu.stanford.nlp.stats.Counters$1$1$1
+ edu.stanford.nlp.stats.Counters$1$1$1$1
+ edu.stanford.nlp.stats.Counters$2
+ edu.stanford.nlp.stats.Counters$2$1
+ edu.stanford.nlp.stats.Counters$2$1$1
+ edu.stanford.nlp.stats.Counters$2$1$1$1
+ edu.stanford.nlp.stats.Counters$2$2
+ edu.stanford.nlp.stats.Counters$2$3
+ edu.stanford.nlp.stats.Counters$2$3$1
+ edu.stanford.nlp.stats.Counters$2$4
+ edu.stanford.nlp.stats.Counters$2$4$1
+ edu.stanford.nlp.stats.Counters$3
+ edu.stanford.nlp.stats.Counters$NaturalComparator
+edu/stanford/nlp/math/NumberMatchingRegex.java
+ edu.stanford.nlp.math.NumberMatchingRegex
+edu/stanford/nlp/ling/tokensregex/MultiPatternMatcher.java
+ edu.stanford.nlp.ling.tokensregex.MultiPatternMatcher
+ edu.stanford.nlp.ling.tokensregex.MultiPatternMatcher$BasicSequencePatternTrigger
+ edu.stanford.nlp.ling.tokensregex.MultiPatternMatcher$NodePatternTrigger
+ edu.stanford.nlp.ling.tokensregex.MultiPatternMatcher$SequencePatternTrigger
+edu/stanford/nlp/util/DeltaMap.java
+ edu.stanford.nlp.util.DeltaMap
+ edu.stanford.nlp.util.DeltaMap$1
+ edu.stanford.nlp.util.DeltaMap$1$1NullingIterator
+ edu.stanford.nlp.util.DeltaMap$SimpleEntry
+edu/stanford/nlp/sequences/IOBUtils.java
+ edu.stanford.nlp.sequences.IOBUtils
+edu/stanford/nlp/util/ArrayHeap.java
+ edu.stanford.nlp.util.ArrayHeap
+ edu.stanford.nlp.util.ArrayHeap$HeapEntry
+edu/stanford/nlp/ling/StringLabelFactory.java
+ edu.stanford.nlp.ling.StringLabelFactory
+edu/stanford/nlp/stats/TwoDimensionalIntCounter.java
+ edu.stanford.nlp.stats.TwoDimensionalIntCounter
+edu/stanford/nlp/ling/tokensregex/SequenceMatchResult.java
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchResult
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchResult$GroupToIntervalFunc
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchResult$MatchedGroupInfo
+edu/stanford/nlp/util/IterableIterator.java
+ edu.stanford.nlp.util.IterableIterator
+edu/stanford/nlp/ling/tokensregex/types/package-info.java
+ edu.stanford.nlp.ling.tokensregex.types.package-info
+edu/stanford/nlp/pipeline/AbstractTextAnnotationCreator.java
+ edu.stanford.nlp.pipeline.AbstractTextAnnotationCreator
+edu/stanford/nlp/ling/tokensregex/matcher/TrieMap.java
+ edu.stanford.nlp.ling.tokensregex.matcher.TrieMap
+ edu.stanford.nlp.ling.tokensregex.matcher.TrieMap$1
+edu/stanford/nlp/util/Interner.java
+ edu.stanford.nlp.util.Interner
+edu/stanford/nlp/pipeline/AnnotatorPool.java
+ edu.stanford.nlp.pipeline.AnnotatorPool
+ edu.stanford.nlp.pipeline.AnnotatorPool$CachedAnnotator
+edu/stanford/nlp/util/FuzzyInterval.java
+ edu.stanford.nlp.util.FuzzyInterval
+ edu.stanford.nlp.util.FuzzyInterval$FuzzyComparable
+edu/stanford/nlp/ling/tokensregex/matcher/MatchCostFunction.java
+ edu.stanford.nlp.ling.tokensregex.matcher.MatchCostFunction
+ edu.stanford.nlp.ling.tokensregex.matcher.MatchCostFunction$AbstractMatchCostFunction
+edu/stanford/nlp/ling/tokensregex/types/Value.java
+ edu.stanford.nlp.ling.tokensregex.types.Value
+edu/stanford/nlp/stats/EquivalenceClasser.java
+ edu.stanford.nlp.stats.EquivalenceClasser
+edu/stanford/nlp/ling/IndexedWord.java
+ edu.stanford.nlp.ling.IndexedWord
+ edu.stanford.nlp.ling.IndexedWord$1
+edu/stanford/nlp/pipeline/JSONOutputter.java
+ edu.stanford.nlp.pipeline.JSONOutputter
+ edu.stanford.nlp.pipeline.JSONOutputter$JSONWriter
+ edu.stanford.nlp.pipeline.JSONOutputter$Writer
+edu/stanford/nlp/util/Lazy.java
+ edu.stanford.nlp.util.Lazy
+ edu.stanford.nlp.util.Lazy$1
+ edu.stanford.nlp.util.Lazy$2
+ edu.stanford.nlp.util.Lazy$3
+edu/stanford/nlp/sequences/CoNLLDocumentReaderAndWriter.java
+ edu.stanford.nlp.sequences.CoNLLDocumentReaderAndWriter
+ edu.stanford.nlp.sequences.CoNLLDocumentReaderAndWriter$CoNLLIterator
+edu/stanford/nlp/util/EditDistance.java
+ edu.stanford.nlp.util.EditDistance
+edu/stanford/nlp/process/AbstractListProcessor.java
+ edu.stanford.nlp.process.AbstractListProcessor
+edu/stanford/nlp/ling/tokensregex/CoreMapSequenceMatcher.java
+ edu.stanford.nlp.ling.tokensregex.CoreMapSequenceMatcher
+ edu.stanford.nlp.ling.tokensregex.CoreMapSequenceMatcher$BasicCoreMapSequenceMatcher
+edu/stanford/nlp/ling/tokensregex/types/ValueFunction.java
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunction
+edu/stanford/nlp/ling/tokensregex/matcher/package-info.java
+ edu.stanford.nlp.ling.tokensregex.matcher.package-info
+edu/stanford/nlp/util/CoreMaps.java
+ edu.stanford.nlp.util.CoreMaps
+ edu.stanford.nlp.util.CoreMaps$1
+ edu.stanford.nlp.util.CoreMaps$1$1
+ edu.stanford.nlp.util.CoreMaps$1$1$1
+ edu.stanford.nlp.util.CoreMaps$2
+edu/stanford/nlp/stats/ClassicCounter.java
+ edu.stanford.nlp.stats.ClassicCounter
+ edu.stanford.nlp.stats.ClassicCounter$1
+ edu.stanford.nlp.stats.ClassicCounter$1$1
+ edu.stanford.nlp.stats.ClassicCounter$2
+ edu.stanford.nlp.stats.ClassicCounter$2$1
+ edu.stanford.nlp.stats.ClassicCounter$2$1$1
+ edu.stanford.nlp.stats.ClassicCounter$ClassicCounterFactory
+edu/stanford/nlp/ling/tokensregex/EnvLookup.java
+ edu.stanford.nlp.ling.tokensregex.EnvLookup
+edu/stanford/nlp/sequences/ObjectBankWrapper.java
+ edu.stanford.nlp.sequences.ObjectBankWrapper
+ edu.stanford.nlp.sequences.ObjectBankWrapper$WrappedIterator
+edu/stanford/nlp/tagger/maxent/ExtractorVerbalVBNZero.java
+ edu.stanford.nlp.tagger.maxent.ExtractorVerbalVBNZero
+edu/stanford/nlp/util/RuntimeInterruptedException.java
+ edu.stanford.nlp.util.RuntimeInterruptedException
+edu/stanford/nlp/ling/LabeledWord.java
+ edu.stanford.nlp.ling.LabeledWord
+ edu.stanford.nlp.ling.LabeledWord$LabelFactoryHolder
+edu/stanford/nlp/objectbank/ResettableReaderIteratorFactory.java
+ edu.stanford.nlp.objectbank.ResettableReaderIteratorFactory
+edu/stanford/nlp/ling/SentenceUtils.java
+ edu.stanford.nlp.ling.SentenceUtils
+edu/stanford/nlp/util/logging/NewlineLogFormatter.java
+ edu.stanford.nlp.util.logging.NewlineLogFormatter
+edu/stanford/nlp/util/FourDimensionalMap.java
+ edu.stanford.nlp.util.FourDimensionalMap
+edu/stanford/nlp/stats/Dirichlet.java
+ edu.stanford.nlp.stats.Dirichlet
+edu/stanford/nlp/pipeline/DocDateAnnotator.java
+ edu.stanford.nlp.pipeline.DocDateAnnotator
+edu/stanford/nlp/stats/Sampler.java
+ edu.stanford.nlp.stats.Sampler
+edu/stanford/nlp/ling/TaggedWord.java
+ edu.stanford.nlp.ling.TaggedWord
+ edu.stanford.nlp.ling.TaggedWord$LabelFactoryHolder
+edu/stanford/nlp/pipeline/TextOutputter.java
+ edu.stanford.nlp.pipeline.TextOutputter
+edu/stanford/nlp/tagger/package-info.java
+ edu.stanford.nlp.tagger.package-info
+edu/stanford/nlp/math/ADMath.java
+ edu.stanford.nlp.math.ADMath
+edu/stanford/nlp/ling/tokensregex/MatchedExpression.java
+ edu.stanford.nlp.ling.tokensregex.MatchedExpression
+ edu.stanford.nlp.ling.tokensregex.MatchedExpression$SingleAnnotationExtractor
+edu/stanford/nlp/util/DisabledPreferences.java
+ edu.stanford.nlp.util.DisabledPreferences
+edu/stanford/nlp/tagger/maxent/LambdaSolveTagger.java
+ edu.stanford.nlp.tagger.maxent.LambdaSolveTagger
+edu/stanford/nlp/ling/tokensregex/types/ValueFunctions.java
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$1
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$10
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$11
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$12
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$13
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$14
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$15
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$16
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$17
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$18
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$19
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$2
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$20
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$21
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$22
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$23
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$24
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$25
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$26
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$27
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$28
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$29
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$3
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$30
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$31
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$32
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$33
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$34
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$35
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$36
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$37
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$38
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$39
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$4
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$40
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$41
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$42
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$43
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$44
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$45
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$5
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$6
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$7
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$8
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$9
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$BooleanFunction
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$ComparableComparator
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$CompareFunction
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$CompareType
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$NamedValueFunction
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$NumericComparator
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$NumericFunction
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$ParamInfo
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$StringFunction
+ edu.stanford.nlp.ling.tokensregex.types.ValueFunctions$TypeCheckedFunction
+edu/stanford/nlp/io/Lexer.java
+ edu.stanford.nlp.io.Lexer
+edu/stanford/nlp/process/LowercaseAndAmericanizeFunction.java
+ edu.stanford.nlp.process.LowercaseAndAmericanizeFunction
+edu/stanford/nlp/ling/tokensregex/parser/SimpleCharStream.java
+ edu.stanford.nlp.ling.tokensregex.parser.SimpleCharStream
+edu/stanford/nlp/process/CoreTokenFactory.java
+ edu.stanford.nlp.process.CoreTokenFactory
+edu/stanford/nlp/util/IntArray.java
+ edu.stanford.nlp.util.IntArray
+edu/stanford/nlp/sequences/MalletReaderAndWriter.java
+ edu.stanford.nlp.sequences.MalletReaderAndWriter
+ edu.stanford.nlp.sequences.MalletReaderAndWriter$MalletDocParser
+edu/stanford/nlp/sequences/package-info.java
+ edu.stanford.nlp.sequences.package-info
+edu/stanford/nlp/tagger/maxent/documentation/TaggerDemo.java
+ edu.stanford.nlp.tagger.maxent.documentation.TaggerDemo
+edu/stanford/nlp/optimization/Function.java
+ edu.stanford.nlp.optimization.Function
+edu/stanford/nlp/pipeline/TokensRegexNERAnnotator.java
+ edu.stanford.nlp.pipeline.TokensRegexNERAnnotator
+ edu.stanford.nlp.pipeline.TokensRegexNERAnnotator$1
+ edu.stanford.nlp.pipeline.TokensRegexNERAnnotator$Entry
+ edu.stanford.nlp.pipeline.TokensRegexNERAnnotator$PosMatchType
+edu/stanford/nlp/ling/RVFDatum.java
+ edu.stanford.nlp.ling.RVFDatum
+edu/stanford/nlp/ling/SegmenterCoreAnnotations.java
+ edu.stanford.nlp.ling.SegmenterCoreAnnotations
+ edu.stanford.nlp.ling.SegmenterCoreAnnotations$CharactersAnnotation
+ edu.stanford.nlp.ling.SegmenterCoreAnnotations$XMLCharAnnotation
+edu/stanford/nlp/sequences/FactoredSequenceModel.java
+ edu.stanford.nlp.sequences.FactoredSequenceModel
+edu/stanford/nlp/util/concurrent/AtomicDouble.java
+ edu.stanford.nlp.util.concurrent.AtomicDouble
+edu/stanford/nlp/util/ArrayMap.java
+ edu.stanford.nlp.util.ArrayMap
+ edu.stanford.nlp.util.ArrayMap$1
+ edu.stanford.nlp.util.ArrayMap$Entry
+edu/stanford/nlp/tagger/maxent/MaxentTaggerServer.java
+ edu.stanford.nlp.tagger.maxent.MaxentTaggerServer
+ edu.stanford.nlp.tagger.maxent.MaxentTaggerServer$Session
+ edu.stanford.nlp.tagger.maxent.MaxentTaggerServer$TaggerClient
+edu/stanford/nlp/io/CopySerializedObject.java
+ edu.stanford.nlp.io.CopySerializedObject
+edu/stanford/nlp/optimization/AbstractCachingDiffFunction.java
+ edu.stanford.nlp.optimization.AbstractCachingDiffFunction
+edu/stanford/nlp/pipeline/GenericAnnotationSerializer.java
+ edu.stanford.nlp.pipeline.GenericAnnotationSerializer
+ edu.stanford.nlp.pipeline.GenericAnnotationSerializer$AppendingObjectOutputStream
+edu/stanford/nlp/sequences/DocumentReaderAndWriter.java
+ edu.stanford.nlp.sequences.DocumentReaderAndWriter
+edu/stanford/nlp/process/ListProcessor.java
+ edu.stanford.nlp.process.ListProcessor
+edu/stanford/nlp/ling/tokensregex/types/AssignableExpression.java
+ edu.stanford.nlp.ling.tokensregex.types.AssignableExpression
+edu/stanford/nlp/process/PTBEscapingProcessor.java
+ edu.stanford.nlp.process.PTBEscapingProcessor
+edu/stanford/nlp/optimization/HybridMinimizer.java
+ edu.stanford.nlp.optimization.HybridMinimizer
+edu/stanford/nlp/tagger/maxent/Extractors.java
+ edu.stanford.nlp.tagger.maxent.Extractors
+edu/stanford/nlp/util/TreeShapedStack.java
+ edu.stanford.nlp.util.TreeShapedStack
+edu/stanford/nlp/international/spanish/SpanishVerbStripper.java
+ edu.stanford.nlp.international.spanish.SpanishVerbStripper
+ edu.stanford.nlp.international.spanish.SpanishVerbStripper$StrippedVerb
+edu/stanford/nlp/optimization/CmdEvaluator.java
+ edu.stanford.nlp.optimization.CmdEvaluator
+edu/stanford/nlp/util/Timing.java
+ edu.stanford.nlp.util.Timing
+edu/stanford/nlp/pipeline/LanguageInfo.java
+ edu.stanford.nlp.pipeline.LanguageInfo
+ edu.stanford.nlp.pipeline.LanguageInfo$HumanLanguage
+edu/stanford/nlp/util/logging/SLF4JHandler.java
+ edu.stanford.nlp.util.logging.SLF4JHandler
+ edu.stanford.nlp.util.logging.SLF4JHandler$1
+edu/stanford/nlp/ling/tokensregex/Env.java
+ edu.stanford.nlp.ling.tokensregex.Env
+ edu.stanford.nlp.ling.tokensregex.Env$Binder
+edu/stanford/nlp/util/CollectionValuedMap.java
+ edu.stanford.nlp.util.CollectionValuedMap
+edu/stanford/nlp/tagger/maxent/CountWrapper.java
+ edu.stanford.nlp.tagger.maxent.CountWrapper
+edu/stanford/nlp/ling/MultiTokenTag.java
+ edu.stanford.nlp.ling.MultiTokenTag
+ edu.stanford.nlp.ling.MultiTokenTag$Tag
+edu/stanford/nlp/process/PTB2TextLexer.java
+ edu.stanford.nlp.process.PTB2TextLexer
+edu/stanford/nlp/util/concurrent/MulticoreWrapper.java
+ edu.stanford.nlp.util.concurrent.MulticoreWrapper
+ edu.stanford.nlp.util.concurrent.MulticoreWrapper$CallableJob
+ edu.stanford.nlp.util.concurrent.MulticoreWrapper$JobCallback
+ edu.stanford.nlp.util.concurrent.MulticoreWrapper$QueueItem
+edu/stanford/nlp/ling/tokensregex/demo/TokensRegexDemo.java
+ edu.stanford.nlp.ling.tokensregex.demo.TokensRegexDemo
+edu/stanford/nlp/io/ExtensionFileFilter.java
+ edu.stanford.nlp.io.ExtensionFileFilter
+edu/stanford/nlp/util/SystemUtils.java
+ edu.stanford.nlp.util.SystemUtils
+ edu.stanford.nlp.util.SystemUtils$ProcessException
+ edu.stanford.nlp.util.SystemUtils$ProcessOutputStream
+ edu.stanford.nlp.util.SystemUtils$WriterThread
+edu/stanford/nlp/ling/tokensregex/NodePatternTransformer.java
+ edu.stanford.nlp.ling.tokensregex.NodePatternTransformer
+edu/stanford/nlp/ling/tokensregex/demo/package-info.java
+ edu.stanford.nlp.ling.tokensregex.demo.package-info
+edu/stanford/nlp/maxent/Features.java
+ edu.stanford.nlp.maxent.Features
+edu/stanford/nlp/ling/tokensregex/matcher/MultiMatch.java
+ edu.stanford.nlp.ling.tokensregex.matcher.MultiMatch
+edu/stanford/nlp/pipeline/TokensRegexAnnotator.java
+ edu.stanford.nlp.pipeline.TokensRegexAnnotator
+ edu.stanford.nlp.pipeline.TokensRegexAnnotator$Options
+edu/stanford/nlp/tagger/maxent/TaggerFeatures.java
+ edu.stanford.nlp.tagger.maxent.TaggerFeatures
+edu/stanford/nlp/optimization/AbstractStochasticCachingDiffFunction.java
+ edu.stanford.nlp.optimization.AbstractStochasticCachingDiffFunction
+ edu.stanford.nlp.optimization.AbstractStochasticCachingDiffFunction$SamplingMethod
+edu/stanford/nlp/stats/Distribution.java
+ edu.stanford.nlp.stats.Distribution
+ edu.stanford.nlp.stats.Distribution$DynamicDistribution
+edu/stanford/nlp/process/WordToSentenceProcessor.java
+ edu.stanford.nlp.process.WordToSentenceProcessor
+ edu.stanford.nlp.process.WordToSentenceProcessor$NewlineIsSentenceBreak
+edu/stanford/nlp/util/MutableDouble.java
+ edu.stanford.nlp.util.MutableDouble
+edu/stanford/nlp/util/logging/Color.java
+ edu.stanford.nlp.util.logging.Color
+edu/stanford/nlp/ling/WordLemmaTag.java
+ edu.stanford.nlp.ling.WordLemmaTag
+edu/stanford/nlp/process/StripTagsProcessor.java
+ edu.stanford.nlp.process.StripTagsProcessor
+edu/stanford/nlp/sequences/FeatureFactory.java
+ edu.stanford.nlp.sequences.FeatureFactory
+edu/stanford/nlp/util/logging/OutputHandler.java
+ edu.stanford.nlp.util.logging.OutputHandler
+ edu.stanford.nlp.util.logging.OutputHandler$TrackInfo
+edu/stanford/nlp/ling/TaggedWordFactory.java
+ edu.stanford.nlp.ling.TaggedWordFactory
+edu/stanford/nlp/maxent/Feature.java
+ edu.stanford.nlp.maxent.Feature
+edu/stanford/nlp/util/CallbackFunction.java
+ edu.stanford.nlp.util.CallbackFunction
+edu/stanford/nlp/ling/tokensregex/BasicSequenceMatchResult.java
+ edu.stanford.nlp.ling.tokensregex.BasicSequenceMatchResult
+ edu.stanford.nlp.ling.tokensregex.BasicSequenceMatchResult$MatchedGroup
+edu/stanford/nlp/tagger/maxent/ReadDataTagged.java
+ edu.stanford.nlp.tagger.maxent.ReadDataTagged
+edu/stanford/nlp/pipeline/AnnotationSource.java
+ edu.stanford.nlp.pipeline.AnnotationSource
+edu/stanford/nlp/util/Factory.java
+ edu.stanford.nlp.util.Factory
+edu/stanford/nlp/ling/tokensregex/demo/TokensRegexMatcherDemo.java
+ edu.stanford.nlp.ling.tokensregex.demo.TokensRegexMatcherDemo
+edu/stanford/nlp/objectbank/XMLBeginEndIterator.java
+ edu.stanford.nlp.objectbank.XMLBeginEndIterator
+ edu.stanford.nlp.objectbank.XMLBeginEndIterator$XMLBeginEndIteratorFactory
+edu/stanford/nlp/optimization/HasFeatureGrouping.java
+ edu.stanford.nlp.optimization.HasFeatureGrouping
+edu/stanford/nlp/objectbank/ReaderIteratorFactory.java
+ edu.stanford.nlp.objectbank.ReaderIteratorFactory
+ edu.stanford.nlp.objectbank.ReaderIteratorFactory$ReaderIterator
+edu/stanford/nlp/tagger/maxent/DataWordTag.java
+ edu.stanford.nlp.tagger.maxent.DataWordTag
+edu/stanford/nlp/tagger/maxent/TestThreadedTagger.java
+ edu.stanford.nlp.tagger.maxent.TestThreadedTagger
+ edu.stanford.nlp.tagger.maxent.TestThreadedTagger$TaggerThread
+edu/stanford/nlp/util/logging/JavaUtilLoggingAdaptor.java
+ edu.stanford.nlp.util.logging.JavaUtilLoggingAdaptor
+ edu.stanford.nlp.util.logging.JavaUtilLoggingAdaptor$RedwoodHandler
+edu/stanford/nlp/pipeline/AnnotationSerializer.java
+ edu.stanford.nlp.pipeline.AnnotationSerializer
+ edu.stanford.nlp.pipeline.AnnotationSerializer$IntermediateEdge
+ edu.stanford.nlp.pipeline.AnnotationSerializer$IntermediateNode
+ edu.stanford.nlp.pipeline.AnnotationSerializer$IntermediateSemanticGraph
+edu/stanford/nlp/process/WordToTaggedWordProcessor.java
+ edu.stanford.nlp.process.WordToTaggedWordProcessor
+edu/stanford/nlp/tagger/maxent/TaggerFeature.java
+ edu.stanford.nlp.tagger.maxent.TaggerFeature
+edu/stanford/nlp/optimization/SMDMinimizer.java
+ edu.stanford.nlp.optimization.SMDMinimizer
+ edu.stanford.nlp.optimization.SMDMinimizer$1
+ edu.stanford.nlp.optimization.SMDMinimizer$setLam
+ edu.stanford.nlp.optimization.SMDMinimizer$setMu
+edu/stanford/nlp/ling/tokensregex/parser/TokenMgrError.java
+ edu.stanford.nlp.ling.tokensregex.parser.TokenMgrError
+edu/stanford/nlp/util/MapFactory.java
+ edu.stanford.nlp.util.MapFactory
+ edu.stanford.nlp.util.MapFactory$ArrayMapFactory
+ edu.stanford.nlp.util.MapFactory$ConcurrentMapFactory
+ edu.stanford.nlp.util.MapFactory$HashMapFactory
+ edu.stanford.nlp.util.MapFactory$IdentityHashMapFactory
+ edu.stanford.nlp.util.MapFactory$LinkedHashMapFactory
+ edu.stanford.nlp.util.MapFactory$TreeMapFactory
+ edu.stanford.nlp.util.MapFactory$WeakHashMapFactory
+edu/stanford/nlp/ling/CoreAnnotations.java
+ edu.stanford.nlp.ling.CoreAnnotations
+ edu.stanford.nlp.ling.CoreAnnotations$AbbrAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$AbgeneAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$AbstrAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$AfterAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$AnswerAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$AnswerObjectAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$AnswerProbAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$AntecedentAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ArabicCharAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ArabicSegAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ArgDescendentAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ArgumentAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$AuthorAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$BagOfWordsAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$BeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$BeforeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$BestCliquesAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$BestFullAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CalendarAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CanonicalEntityMentionIndexAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CategoryAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CategoryFunctionalTagAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CharAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CharacterOffsetBeginAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CharacterOffsetEndAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ChineseCharAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ChineseIsSegmentedAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ChineseOrigSegAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ChineseSegAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ChunkAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CoNLLDepAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CoNLLDepParentIndexAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CoNLLDepTypeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CoNLLPredicateAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CoNLLSRLAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CoNLLUFeats
+ edu.stanford.nlp.ling.CoreAnnotations$CoNLLUMisc
+ edu.stanford.nlp.ling.CoreAnnotations$CoNLLUSecondaryDepsAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CoNLLUTokenSpanAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CoarseNamedEntityTagAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CoarseTagAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CodepointOffsetBeginAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CodepointOffsetEndAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ColumnDataClassifierAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CommonWordsAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ContextsAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CorefMentionToEntityMentionMappingAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CostMagnificationAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$CovertIDAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$D2_LBeginAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$D2_LEndAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$D2_LMiddleAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$DayAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$DependentsAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$DictAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$DistSimAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$DoAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$DocDateAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$DocIDAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$DocSourceTypeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$DocTitleAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$DocTypeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$DomainAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$EntityClassAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$EntityMentionIndexAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$EntityMentionToCorefMentionMappingAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$EntityRuleAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$EntityTypeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ExceptionAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$FeaturesAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$FemaleGazAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$FineGrainedNamedEntityTagAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$FirstChildAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ForcedSentenceEndAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ForcedSentenceUntilEndAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$FreqAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$GazAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$GazetteerAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$GenderAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$GenericTokensAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$GeniaAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$GoldAnswerAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$GovernorAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$GrandparentAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$HaveAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$HeadWordStringAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$HeightAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$IDAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$IDFAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$INAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$IndexAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$InterpretationAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$IsDateRangeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$IsFirstWordOfMWTAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$IsMultiWordTokenAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$IsNewlineAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$IsURLAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LBeginAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LEndAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LMiddleAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LabelAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LabelIDAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LabelWeightAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LastGazAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LastTaggedAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LeftChildrenNodeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LeftTermAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LemmaAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LengthAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LineNumberAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LinkAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$LocationAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$MWTTokenTextAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$MaleGazAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$MarkingAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$MentionTokenAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$MentionsAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$MonthAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$MorphoCaseAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$MorphoGenAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$MorphoNumAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$MorphoPersAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NERIDAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NamedEntityTagAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NamedEntityTagProbsAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NeighborsAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NormalizedNamedEntityTagAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NotAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NumTxtSentencesAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NumericCompositeObjectAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NumericCompositeTypeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NumericCompositeValueAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NumericObjectAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NumericTypeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NumericValueAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$NumerizedTokensAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$OriginalCharAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$OriginalTextAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ParaPositionAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ParagraphAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ParagraphIndexAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ParagraphsAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ParentAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$PartOfSpeechAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$PercentAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$PhraseWordsAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$PhraseWordsTagAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$PolarityAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$PositionAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$PossibleAnswersAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$PredictedAnswerAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$PresetAnswerAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$PrevChildAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$PriorAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ProtoAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$QuotationIndexAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$QuotationsAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$QuotedAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$QuotesAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$RoleAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SRLIDAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SRLInstancesAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SRL_ID
+ edu.stanford.nlp.ling.CoreAnnotations$SectionAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SectionAuthorCharacterOffsetBeginAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SectionAuthorCharacterOffsetEndAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SectionDateAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SectionEndAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SectionIDAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SectionIndexAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SectionStartAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SectionTagAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SectionsAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SemanticHeadTagAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SemanticHeadWordAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SemanticTagAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SemanticWordAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SentenceBeginAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SentenceEndAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SentenceIDAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SentenceIndexAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SentencePositionAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ShapeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SpaceBeforeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SpanAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SpeakerAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SpeakerTypeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$StackedNamedEntityTagAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$StateAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$StemAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$SubcategorizationAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$TagLabelAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$TextAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$TokenBeginAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$TokenEndAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$TokensAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$TopicAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$TrueCaseAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$TrueCaseTextAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$TrueTagAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$UBlockAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$UTypeAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$UnaryAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$UnclosedQuotationsAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$UnknownAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$UseMarkedDiscourseAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$UtteranceAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$ValueAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$VerbSenseAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$WebAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$WordFormAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$WordPositionAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$WordSenseAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$WordnetSynAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$XmlContextAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$XmlElementAnnotation
+ edu.stanford.nlp.ling.CoreAnnotations$YearAnnotation
+edu/stanford/nlp/international/spanish/process/SpanishTokenizer.java
+ edu.stanford.nlp.international.spanish.process.SpanishTokenizer
+ edu.stanford.nlp.international.spanish.process.SpanishTokenizer$SpanishTokenizerFactory
+edu/stanford/nlp/optimization/SparseMinimizer.java
+ edu.stanford.nlp.optimization.SparseMinimizer
+edu/stanford/nlp/tagger/maxent/MaxentTagger.java
+ edu.stanford.nlp.tagger.maxent.MaxentTagger
+ edu.stanford.nlp.tagger.maxent.MaxentTagger$1
+ edu.stanford.nlp.tagger.maxent.MaxentTagger$SentenceTaggingProcessor
+ edu.stanford.nlp.tagger.maxent.MaxentTagger$TaggerWrapper
+edu/stanford/nlp/util/FixedPrioritiesPriorityQueue.java
+ edu.stanford.nlp.util.FixedPrioritiesPriorityQueue
+edu/stanford/nlp/util/DisabledPreferencesFactory.java
+ edu.stanford.nlp.util.DisabledPreferencesFactory
+edu/stanford/nlp/ling/tokensregex/parser/package-info.java
+ edu.stanford.nlp.ling.tokensregex.parser.package-info
+edu/stanford/nlp/util/ErasureUtils.java
+ edu.stanford.nlp.util.ErasureUtils
+edu/stanford/nlp/process/LexerUtils.java
+ edu.stanford.nlp.process.LexerUtils
+ edu.stanford.nlp.process.LexerUtils$1
+ edu.stanford.nlp.process.LexerUtils$DashesEnum
+ edu.stanford.nlp.process.LexerUtils$EllipsesEnum
+ edu.stanford.nlp.process.LexerUtils$QuotesEnum
+edu/stanford/nlp/sequences/ListeningSequenceModel.java
+ edu.stanford.nlp.sequences.ListeningSequenceModel
+edu/stanford/nlp/util/ValuedInterval.java
+ edu.stanford.nlp.util.ValuedInterval
+edu/stanford/nlp/pipeline/SentenceAnnotator.java
+ edu.stanford.nlp.pipeline.SentenceAnnotator
+ edu.stanford.nlp.pipeline.SentenceAnnotator$AnnotatorProcessor
+edu/stanford/nlp/ling/tokensregex/demo/TokensRegexRetokenizeDemo.java
+ edu.stanford.nlp.ling.tokensregex.demo.TokensRegexRetokenizeDemo
+edu/stanford/nlp/util/IntTriple.java
+ edu.stanford.nlp.util.IntTriple
+edu/stanford/nlp/io/EncodingFileReader.java
+ edu.stanford.nlp.io.EncodingFileReader
+edu/stanford/nlp/math/ArrayMath.java
+ edu.stanford.nlp.math.ArrayMath
+ edu.stanford.nlp.math.ArrayMath$InvalidElementException
+edu/stanford/nlp/tagger/maxent/FeatureKey.java
+ edu.stanford.nlp.tagger.maxent.FeatureKey
+edu/stanford/nlp/tagger/maxent/TemplateHash.java
+ edu.stanford.nlp.tagger.maxent.TemplateHash
+ edu.stanford.nlp.tagger.maxent.TemplateHash$ListInstances
+edu/stanford/nlp/maxent/iis/LambdaSolve.java
+ edu.stanford.nlp.maxent.iis.LambdaSolve
+edu/stanford/nlp/util/OneToOneMap.java
+ edu.stanford.nlp.util.OneToOneMap
+ edu.stanford.nlp.util.OneToOneMap$OneToOneMapException
+edu/stanford/nlp/sequences/SequenceSampler.java
+ edu.stanford.nlp.sequences.SequenceSampler
+edu/stanford/nlp/util/CacheMap.java
+ edu.stanford.nlp.util.CacheMap
+edu/stanford/nlp/sequences/ExactBestSequenceFinder.java
+ edu.stanford.nlp.sequences.ExactBestSequenceFinder
+edu/stanford/nlp/util/DisjointSet.java
+ edu.stanford.nlp.util.DisjointSet
+edu/stanford/nlp/util/Sets.java
+ edu.stanford.nlp.util.Sets
+edu/stanford/nlp/process/Tokenizer.java
+ edu.stanford.nlp.process.Tokenizer
+edu/stanford/nlp/ling/tokensregex/demo/TokensRegexMatcher.java
+ edu.stanford.nlp.ling.tokensregex.demo.TokensRegexMatcher
+edu/stanford/nlp/optimization/ScaledSGDMinimizer.java
+ edu.stanford.nlp.optimization.ScaledSGDMinimizer
+ edu.stanford.nlp.optimization.ScaledSGDMinimizer$Weights
+ edu.stanford.nlp.optimization.ScaledSGDMinimizer$lagrange
+ edu.stanford.nlp.optimization.ScaledSGDMinimizer$setFixedGain
+edu/stanford/nlp/ling/tokensregex/CoreMapExpressionExtractor.java
+ edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor
+ edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor$CompositeMatchState
+ edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor$Stage
+edu/stanford/nlp/util/logging/RerouteChannel.java
+ edu.stanford.nlp.util.logging.RerouteChannel
+edu/stanford/nlp/util/FastDisjointSet.java
+ edu.stanford.nlp.util.FastDisjointSet
+ edu.stanford.nlp.util.FastDisjointSet$Element
+edu/stanford/nlp/ling/HasWord.java
+ edu.stanford.nlp.ling.HasWord
+edu/stanford/nlp/objectbank/LineIterator.java
+ edu.stanford.nlp.objectbank.LineIterator
+ edu.stanford.nlp.objectbank.LineIterator$LineIteratorFactory
+edu/stanford/nlp/io/RuntimeIOException.java
+ edu.stanford.nlp.io.RuntimeIOException
+edu/stanford/nlp/sequences/Clique.java
+ edu.stanford.nlp.sequences.Clique
+ edu.stanford.nlp.sequences.Clique$CliqueEqualityWrapper
+edu/stanford/nlp/tagger/maxent/Distsim.java
+ edu.stanford.nlp.tagger.maxent.Distsim
+edu/stanford/nlp/util/Functions.java
+ edu.stanford.nlp.util.Functions
+ edu.stanford.nlp.util.Functions$ComposedFunction
+ edu.stanford.nlp.util.Functions$InvertedBijection
+edu/stanford/nlp/pipeline/CoreEntityMention.java
+ edu.stanford.nlp.pipeline.CoreEntityMention
+edu/stanford/nlp/util/Index.java
+ edu.stanford.nlp.util.Index
+edu/stanford/nlp/pipeline/CoreMapAggregator.java
+ edu.stanford.nlp.pipeline.CoreMapAggregator
+edu/stanford/nlp/international/german/process/GermanTokenizerPostProcessor.java
+ edu.stanford.nlp.international.german.process.GermanTokenizerPostProcessor
+edu/stanford/nlp/util/Quadruple.java
+ edu.stanford.nlp.util.Quadruple
+edu/stanford/nlp/tagger/maxent/ExtractorDistsimConjunction.java
+ edu.stanford.nlp.tagger.maxent.ExtractorDistsimConjunction
+edu/stanford/nlp/objectbank/ObjectBank.java
+ edu.stanford.nlp.objectbank.ObjectBank
+ edu.stanford.nlp.objectbank.ObjectBank$OBIterator
+ edu.stanford.nlp.objectbank.ObjectBank$PathToFileFunction
+edu/stanford/nlp/ling/AnnotationLookup.java
+ edu.stanford.nlp.ling.AnnotationLookup
+ edu.stanford.nlp.ling.AnnotationLookup$KeyLookup
+edu/stanford/nlp/ling/HasTag.java
+ edu.stanford.nlp.ling.HasTag
+edu/stanford/nlp/tagger/io/TSVTaggedFileReader.java
+ edu.stanford.nlp.tagger.io.TSVTaggedFileReader
+edu/stanford/nlp/util/BoundedPriorityQueue.java
+ edu.stanford.nlp.util.BoundedPriorityQueue
+edu/stanford/nlp/ling/Label.java
+ edu.stanford.nlp.ling.Label
+edu/stanford/nlp/util/MutableInteger.java
+ edu.stanford.nlp.util.MutableInteger
+edu/stanford/nlp/ling/HasCategory.java
+ edu.stanford.nlp.ling.HasCategory
+edu/stanford/nlp/maxent/Experiments.java
+ edu.stanford.nlp.maxent.Experiments
+edu/stanford/nlp/tagger/common/Tagger.java
+ edu.stanford.nlp.tagger.common.Tagger
+edu/stanford/nlp/optimization/HasEvaluators.java
+ edu.stanford.nlp.optimization.HasEvaluators
+edu/stanford/nlp/util/CommandLineTokenizer.java
+ edu.stanford.nlp.util.CommandLineTokenizer
+edu/stanford/nlp/ling/HasNER.java
+ edu.stanford.nlp.ling.HasNER
+edu/stanford/nlp/ling/tokensregex/parser/ParseException.java
+ edu.stanford.nlp.ling.tokensregex.parser.ParseException
+edu/stanford/nlp/util/concurrent/ConcurrentHashIndex.java
+ edu.stanford.nlp.util.concurrent.ConcurrentHashIndex
+ edu.stanford.nlp.util.concurrent.ConcurrentHashIndex$1
+ edu.stanford.nlp.util.concurrent.ConcurrentHashIndex$2
+edu/stanford/nlp/process/TokenizerAdapter.java
+ edu.stanford.nlp.process.TokenizerAdapter
+edu/stanford/nlp/ling/tokensregex/matcher/TrieMapMatcher.java
+ edu.stanford.nlp.ling.tokensregex.matcher.TrieMapMatcher
+ edu.stanford.nlp.ling.tokensregex.matcher.TrieMapMatcher$MatchQueue
+ edu.stanford.nlp.ling.tokensregex.matcher.TrieMapMatcher$MultiMatchQueue
+ edu.stanford.nlp.ling.tokensregex.matcher.TrieMapMatcher$PartialApproxMatch
+edu/stanford/nlp/math/DoubleAD.java
+ edu.stanford.nlp.math.DoubleAD
+edu/stanford/nlp/util/logging/JavaUtilLoggingHandler.java
+ edu.stanford.nlp.util.logging.JavaUtilLoggingHandler
+ edu.stanford.nlp.util.logging.JavaUtilLoggingHandler$1
+edu/stanford/nlp/tagger/maxent/ASBCunkDict.java
+ edu.stanford.nlp.tagger.maxent.ASBCunkDict
+edu/stanford/nlp/util/CoreMap.java
+ edu.stanford.nlp.util.CoreMap
+edu/stanford/nlp/util/ConvertByteArray.java
+ edu.stanford.nlp.util.ConvertByteArray
+edu/stanford/nlp/process/PTBLexer.java
+ edu.stanford.nlp.process.PTBLexer
+ edu.stanford.nlp.process.PTBLexer$1
+ edu.stanford.nlp.process.PTBLexer$UntokenizableOptions
+edu/stanford/nlp/optimization/HasFloatInitial.java
+ edu.stanford.nlp.optimization.HasFloatInitial
+edu/stanford/nlp/util/ArgumentParser.java
+ edu.stanford.nlp.util.ArgumentParser
+ edu.stanford.nlp.util.ArgumentParser$Option
+edu/stanford/nlp/stats/Multinomial.java
+ edu.stanford.nlp.stats.Multinomial
+edu/stanford/nlp/optimization/MemoryEvaluator.java
+ edu.stanford.nlp.optimization.MemoryEvaluator
+edu/stanford/nlp/process/AbstractTokenizer.java
+ edu.stanford.nlp.process.AbstractTokenizer
+edu/stanford/nlp/util/Interval.java
+ edu.stanford.nlp.util.Interval
+ edu.stanford.nlp.util.Interval$RelType
+edu/stanford/nlp/process/StoplistFilter.java
+ edu.stanford.nlp.process.StoplistFilter
+edu/stanford/nlp/util/logging/PrettyLoggable.java
+ edu.stanford.nlp.util.logging.PrettyLoggable
+edu/stanford/nlp/ling/CoreAnnotation.java
+ edu.stanford.nlp.ling.CoreAnnotation
+edu/stanford/nlp/ling/WordTag.java
+ edu.stanford.nlp.ling.WordTag
+ edu.stanford.nlp.ling.WordTag$LabelFactoryHolder
+edu/stanford/nlp/ling/tokensregex/matcher/TrieMapUtils.java
+ edu.stanford.nlp.ling.tokensregex.matcher.TrieMapUtils
+ edu.stanford.nlp.ling.tokensregex.matcher.TrieMapUtils$TrieMapFactory
+edu/stanford/nlp/util/FiveDimensionalMap.java
+ edu.stanford.nlp.util.FiveDimensionalMap
+edu/stanford/nlp/ling/tokensregex/PhraseTable.java
+ edu.stanford.nlp.ling.tokensregex.PhraseTable
+ edu.stanford.nlp.ling.tokensregex.PhraseTable$Phrase
+ edu.stanford.nlp.ling.tokensregex.PhraseTable$PhraseMatch
+ edu.stanford.nlp.ling.tokensregex.PhraseTable$PhraseStringCollection
+ edu.stanford.nlp.ling.tokensregex.PhraseTable$PhraseTableIterator
+ edu.stanford.nlp.ling.tokensregex.PhraseTable$StackEntry
+ edu.stanford.nlp.ling.tokensregex.PhraseTable$StringList
+ edu.stanford.nlp.ling.tokensregex.PhraseTable$TokenList
+ edu.stanford.nlp.ling.tokensregex.PhraseTable$WordList
+edu/stanford/nlp/pipeline/MorphaAnnotator.java
+ edu.stanford.nlp.pipeline.MorphaAnnotator
+edu/stanford/nlp/process/LexedTokenFactory.java
+ edu.stanford.nlp.process.LexedTokenFactory
+edu/stanford/nlp/util/ThreeDimensionalMap.java
+ edu.stanford.nlp.util.ThreeDimensionalMap
+edu/stanford/nlp/process/WordShapeClassifier.java
+ edu.stanford.nlp.process.WordShapeClassifier
+ edu.stanford.nlp.process.WordShapeClassifier$DistributionalClusters
+ edu.stanford.nlp.process.WordShapeClassifier$DistributionalClusters$LcMap
+edu/stanford/nlp/io/FileSequentialCollection.java
+ edu.stanford.nlp.io.FileSequentialCollection
+ edu.stanford.nlp.io.FileSequentialCollection$FileSequentialCollectionIterator
+edu/stanford/nlp/objectbank/DelimitRegExIterator.java
+ edu.stanford.nlp.objectbank.DelimitRegExIterator
+ edu.stanford.nlp.objectbank.DelimitRegExIterator$DelimitRegExIteratorFactory
+edu/stanford/nlp/util/logging/StanfordRedwoodConfiguration.java
+ edu.stanford.nlp.util.logging.StanfordRedwoodConfiguration
+edu/stanford/nlp/process/package-info.java
+ edu.stanford.nlp.process.package-info
+edu/stanford/nlp/util/logging/RedirectOutputHandler.java
+ edu.stanford.nlp.util.logging.RedirectOutputHandler
+edu/stanford/nlp/ling/tokensregex/TokenSequencePattern.java
+ edu.stanford.nlp.ling.tokensregex.TokenSequencePattern
+edu/stanford/nlp/pipeline/MWTAnnotator.java
+ edu.stanford.nlp.pipeline.MWTAnnotator
+edu/stanford/nlp/util/Beam.java
+ edu.stanford.nlp.util.Beam
+edu/stanford/nlp/process/Morpha.java
+ edu.stanford.nlp.process.Morpha
+edu/stanford/nlp/tagger/maxent/Extractor.java
+ edu.stanford.nlp.tagger.maxent.Extractor
+edu/stanford/nlp/util/package-info.java
+ edu.stanford.nlp.util.package-info
+edu/stanford/nlp/util/CollectionFactory.java
+ edu.stanford.nlp.util.CollectionFactory
+ edu.stanford.nlp.util.CollectionFactory$ArrayListFactory
+ edu.stanford.nlp.util.CollectionFactory$HashSetFactory
+ edu.stanford.nlp.util.CollectionFactory$LinkedListFactory
+ edu.stanford.nlp.util.CollectionFactory$SizedArrayListFactory
+ edu.stanford.nlp.util.CollectionFactory$TreeSetFactory
+edu/stanford/nlp/process/TransformXML.java
+ edu.stanford.nlp.process.TransformXML
+ edu.stanford.nlp.process.TransformXML$NoEscapingSAXInterface
+ edu.stanford.nlp.process.TransformXML$SAXInterface
+edu/stanford/nlp/process/Americanize.java
+ edu.stanford.nlp.process.Americanize
+edu/stanford/nlp/maxent/iis/package-info.java
+ edu.stanford.nlp.maxent.iis.package-info
+edu/stanford/nlp/pipeline/AnnotationCreator.java
+ edu.stanford.nlp.pipeline.AnnotationCreator
+edu/stanford/nlp/util/ScoredComparator.java
+ edu.stanford.nlp.util.ScoredComparator
+edu/stanford/nlp/pipeline/CoNLLUReader.java
+ edu.stanford.nlp.pipeline.CoNLLUReader
+ edu.stanford.nlp.pipeline.CoNLLUReader$CoNLLUDocument
+ edu.stanford.nlp.pipeline.CoNLLUReader$CoNLLUSentence
+edu/stanford/nlp/optimization/GoldenSectionLineSearch.java
+ edu.stanford.nlp.optimization.GoldenSectionLineSearch
+edu/stanford/nlp/ling/CategoryWordTagFactory.java
+ edu.stanford.nlp.ling.CategoryWordTagFactory
+edu/stanford/nlp/tagger/maxent/AmbiguityClass.java
+ edu.stanford.nlp.tagger.maxent.AmbiguityClass
+edu/stanford/nlp/util/logging/FilterHandler.java
+ edu.stanford.nlp.util.logging.FilterHandler
+edu/stanford/nlp/io/EncodingPrintWriter.java
+ edu.stanford.nlp.io.EncodingPrintWriter
+ edu.stanford.nlp.io.EncodingPrintWriter$err
+ edu.stanford.nlp.io.EncodingPrintWriter$out
+edu/stanford/nlp/ling/HasIndex.java
+ edu.stanford.nlp.ling.HasIndex
+edu/stanford/nlp/ling/BasicDatum.java
+ edu.stanford.nlp.ling.BasicDatum
+edu/stanford/nlp/pipeline/CoreSentence.java
+ edu.stanford.nlp.pipeline.CoreSentence
+edu/stanford/nlp/util/logging/BooleanLogRecordHandler.java
+ edu.stanford.nlp.util.logging.BooleanLogRecordHandler
+edu/stanford/nlp/util/MapList.java
+ edu.stanford.nlp.util.MapList
+edu/stanford/nlp/tagger/maxent/TaggerExperiments.java
+ edu.stanford.nlp.tagger.maxent.TaggerExperiments
+edu/stanford/nlp/ling/Tag.java
+ edu.stanford.nlp.ling.Tag
+ edu.stanford.nlp.ling.Tag$LabelFactoryHolder
+ edu.stanford.nlp.ling.Tag$TagFactory
+edu/stanford/nlp/ling/ValueLabel.java
+ edu.stanford.nlp.ling.ValueLabel
+edu/stanford/nlp/util/Filters.java
+ edu.stanford.nlp.util.Filters
+ edu.stanford.nlp.util.Filters$CategoricalFilter
+ edu.stanford.nlp.util.Filters$CollectionAcceptFilter
+ edu.stanford.nlp.util.Filters$CombinedFilter
+ edu.stanford.nlp.util.Filters$ConjFilter
+ edu.stanford.nlp.util.Filters$DisjFilter
+ edu.stanford.nlp.util.Filters$NegatedFilter
+ edu.stanford.nlp.util.Filters$RandomFilter
+edu/stanford/nlp/tagger/maxent/TestClassifier.java
+ edu.stanford.nlp.tagger.maxent.TestClassifier
+ edu.stanford.nlp.tagger.maxent.TestClassifier$TestSentenceProcessor
+edu/stanford/nlp/ling/WordLemmaTagFactory.java
+ edu.stanford.nlp.ling.WordLemmaTagFactory
+edu/stanford/nlp/stats/GeneralizedCounter.java
+ edu.stanford.nlp.stats.GeneralizedCounter
+ edu.stanford.nlp.stats.GeneralizedCounter$CounterView
+ edu.stanford.nlp.stats.GeneralizedCounter$Entry
+ edu.stanford.nlp.stats.GeneralizedCounter$OneDimensionalCounterView
+edu/stanford/nlp/tagger/maxent/TestSentence.java
+ edu.stanford.nlp.tagger.maxent.TestSentence
+edu/stanford/nlp/util/Characters.java
+ edu.stanford.nlp.util.Characters
+edu/stanford/nlp/ling/StringLabel.java
+ edu.stanford.nlp.ling.StringLabel
+ edu.stanford.nlp.ling.StringLabel$StringLabelFactoryHolder
+edu/stanford/nlp/objectbank/IteratorFromReaderFactory.java
+ edu.stanford.nlp.objectbank.IteratorFromReaderFactory
+edu/stanford/nlp/ling/tokensregex/CoreMapNodePattern.java
+ edu.stanford.nlp.ling.tokensregex.CoreMapNodePattern
+ edu.stanford.nlp.ling.tokensregex.CoreMapNodePattern$1
+ edu.stanford.nlp.ling.tokensregex.CoreMapNodePattern$AttributesEqualMatchChecker
+edu/stanford/nlp/tagger/maxent/TTags.java
+ edu.stanford.nlp.tagger.maxent.TTags
+edu/stanford/nlp/util/Pair.java
+ edu.stanford.nlp.util.Pair
+ edu.stanford.nlp.util.Pair$ByFirstPairComparator
+ edu.stanford.nlp.util.Pair$ByFirstReversePairComparator
+ edu.stanford.nlp.util.Pair$BySecondPairComparator
+ edu.stanford.nlp.util.Pair$BySecondReversePairComparator
+ edu.stanford.nlp.util.Pair$MutableInternedPair
+edu/stanford/nlp/process/SerializableFunction.java
+ edu.stanford.nlp.process.SerializableFunction
+edu/stanford/nlp/tagger/maxent/PairsHolder.java
+ edu.stanford.nlp.tagger.maxent.PairsHolder
+edu/stanford/nlp/pipeline/CoreDocument.java
+ edu.stanford.nlp.pipeline.CoreDocument
+edu/stanford/nlp/ling/tokensregex/types/Expression.java
+ edu.stanford.nlp.ling.tokensregex.types.Expression
+edu/stanford/nlp/ling/BasicDocument.java
+ edu.stanford.nlp.ling.BasicDocument
+edu/stanford/nlp/ling/CoreLabel.java
+ edu.stanford.nlp.ling.CoreLabel
+ edu.stanford.nlp.ling.CoreLabel$1
+ edu.stanford.nlp.ling.CoreLabel$CoreLabelFactory
+ edu.stanford.nlp.ling.CoreLabel$GenericAnnotation
+ edu.stanford.nlp.ling.CoreLabel$OutputFormat
+edu/stanford/nlp/optimization/QNMinimizer.java
+ edu.stanford.nlp.optimization.QNMinimizer
+ edu.stanford.nlp.optimization.QNMinimizer$1
+ edu.stanford.nlp.optimization.QNMinimizer$DiagonalQNInfo
+ edu.stanford.nlp.optimization.QNMinimizer$MaxEvaluationsExceeded
+ edu.stanford.nlp.optimization.QNMinimizer$QNInfo
+ edu.stanford.nlp.optimization.QNMinimizer$Record
+ edu.stanford.nlp.optimization.QNMinimizer$ScalarQNInfo
+ edu.stanford.nlp.optimization.QNMinimizer$SurpriseConvergence
+ edu.stanford.nlp.optimization.QNMinimizer$eLineSearch
+ edu.stanford.nlp.optimization.QNMinimizer$eScaling
+ edu.stanford.nlp.optimization.QNMinimizer$eState
+edu/stanford/nlp/pipeline/POSTaggerAnnotator.java
+ edu.stanford.nlp.pipeline.POSTaggerAnnotator
+ edu.stanford.nlp.pipeline.POSTaggerAnnotator$POSTaggerProcessor
+edu/stanford/nlp/tagger/maxent/ExtractorFrames.java
+ edu.stanford.nlp.tagger.maxent.ExtractorFrames
+ edu.stanford.nlp.tagger.maxent.ExtractorFrames$ExtractorCWordCapCase
+ edu.stanford.nlp.tagger.maxent.ExtractorFrames$ExtractorContinuousTagConjunction
+ edu.stanford.nlp.tagger.maxent.ExtractorFrames$ExtractorThreeTags
+ edu.stanford.nlp.tagger.maxent.ExtractorFrames$ExtractorTwoTags
+ edu.stanford.nlp.tagger.maxent.ExtractorFrames$ExtractorTwoWords
+ edu.stanford.nlp.tagger.maxent.ExtractorFrames$ExtractorTwoWordsTag
+ edu.stanford.nlp.tagger.maxent.ExtractorFrames$ExtractorWordLowerCase
+ edu.stanford.nlp.tagger.maxent.ExtractorFrames$ExtractorWordTag
+ edu.stanford.nlp.tagger.maxent.ExtractorFrames$ExtractorWordTwoTags
+ edu.stanford.nlp.tagger.maxent.ExtractorSpanishAuxiliaryTag
+ edu.stanford.nlp.tagger.maxent.ExtractorSpanishSemiauxiliaryTag
+ edu.stanford.nlp.tagger.maxent.ExtractorWordShapeClassifier
+ edu.stanford.nlp.tagger.maxent.ExtractorWordShapeConjunction
+edu/stanford/nlp/pipeline/ChunkAnnotationUtils.java
+ edu.stanford.nlp.pipeline.ChunkAnnotationUtils
+edu/stanford/nlp/optimization/FloatFunction.java
+ edu.stanford.nlp.optimization.FloatFunction
+edu/stanford/nlp/util/UTF8EquivalenceFunction.java
+ edu.stanford.nlp.util.UTF8EquivalenceFunction
+edu/stanford/nlp/util/Pointer.java
+ edu.stanford.nlp.util.Pointer
+edu/stanford/nlp/pipeline/CoreMapAttributeAggregator.java
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator$1
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator$2
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator$3
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator$4
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator$5
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator$6
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator$7
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator$8
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator$ConcatAggregator
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator$ConcatCoreMapListAggregator
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator$ConcatListAggregator
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator$ConcatTextAggregator
+ edu.stanford.nlp.pipeline.CoreMapAttributeAggregator$MostFreqAggregator
+edu/stanford/nlp/ling/tokensregex/parser/Token.java
+ edu.stanford.nlp.ling.tokensregex.parser.Token
+edu/stanford/nlp/io/FileSystem.java
+ edu.stanford.nlp.io.FileSystem
+edu/stanford/nlp/ling/tokensregex/MultiNodePattern.java
+ edu.stanford.nlp.ling.tokensregex.MultiNodePattern
+ edu.stanford.nlp.ling.tokensregex.MultiNodePattern$IntersectMultiNodePattern
+ edu.stanford.nlp.ling.tokensregex.MultiNodePattern$UnionMultiNodePattern
+edu/stanford/nlp/optimization/package-info.java
+ edu.stanford.nlp.optimization.package-info
+edu/stanford/nlp/util/XMLUtils.java
+ edu.stanford.nlp.util.XMLUtils
+ edu.stanford.nlp.util.XMLUtils$SAXErrorHandler
+ edu.stanford.nlp.util.XMLUtils$XMLTag
+edu/stanford/nlp/ling/Labeled.java
+ edu.stanford.nlp.ling.Labeled
+edu/stanford/nlp/maxent/Problem.java
+ edu.stanford.nlp.maxent.Problem
+edu/stanford/nlp/ling/tokensregex/CoreMapNodePatternTrigger.java
+ edu.stanford.nlp.ling.tokensregex.CoreMapNodePatternTrigger
+ edu.stanford.nlp.ling.tokensregex.CoreMapNodePatternTrigger$1
+ edu.stanford.nlp.ling.tokensregex.CoreMapNodePatternTrigger$StringTriggerCandidate
+edu/stanford/nlp/sequences/MalletFeatureFactory.java
+ edu.stanford.nlp.sequences.MalletFeatureFactory
+edu/stanford/nlp/ling/tokensregex/matcher/ApproxMatch.java
+ edu.stanford.nlp.ling.tokensregex.matcher.ApproxMatch
+edu/stanford/nlp/ling/tokensregex/CoreMapSequenceMatchAction.java
+ edu.stanford.nlp.ling.tokensregex.CoreMapSequenceMatchAction
+ edu.stanford.nlp.ling.tokensregex.CoreMapSequenceMatchAction$AnnotateAction
+ edu.stanford.nlp.ling.tokensregex.CoreMapSequenceMatchAction$MergeAction
+edu/stanford/nlp/process/LexerTokenizer.java
+ edu.stanford.nlp.process.LexerTokenizer
+edu/stanford/nlp/ling/package-info.java
+ edu.stanford.nlp.ling.package-info
+edu/stanford/nlp/ling/tokensregex/SequenceMatchRules.java
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$AnnotationExtractRule
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$AnnotationExtractRuleCreator
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$AnnotationMatchedFilter
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$AssignmentRule
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$BasicSequenceExtractRule
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$CompositeExtractRuleCreator
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$CoreMapExtractRule
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$CoreMapFunctionApplier
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$CoreMapToListExtractRule
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$CoreMapToListFunctionApplier
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$ExtractRule
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$FilterExtractRule
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$ListExtractRule
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$MultiSequencePatternExtractRule
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$MultiTokenPatternExtractRuleCreator
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$Rule
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$SequenceMatchResultExtractor
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$SequenceMatchedExpressionExtractor
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$SequencePatternExtractRule
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$StringMatchResultExtractor
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$StringMatchedExpressionExtractor
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$StringPatternExtractRule
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$TextPatternExtractRuleCreator
+ edu.stanford.nlp.ling.tokensregex.SequenceMatchRules$TokenPatternExtractRuleCreator
+edu/stanford/nlp/optimization/StochasticDiffFunctionTester.java
+ edu.stanford.nlp.optimization.StochasticDiffFunctionTester
+edu/stanford/nlp/international/french/FrenchUnknownWordSignatures.java
+ edu.stanford.nlp.international.french.FrenchUnknownWordSignatures
+edu/stanford/nlp/pipeline/CoreNLPProtos.java
+ edu.stanford.nlp.pipeline.CoreNLPProtos
+ edu.stanford.nlp.pipeline.CoreNLPProtos$CorefChain
+ edu.stanford.nlp.pipeline.CoreNLPProtos$CorefChain$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$CorefChain$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$CorefChain$CorefMention
+ edu.stanford.nlp.pipeline.CoreNLPProtos$CorefChain$CorefMention$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$CorefChain$CorefMention$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$CorefChain$CorefMentionOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$CorefChainOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$DependencyGraph
+ edu.stanford.nlp.pipeline.CoreNLPProtos$DependencyGraph$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$DependencyGraph$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$DependencyGraph$Edge
+ edu.stanford.nlp.pipeline.CoreNLPProtos$DependencyGraph$Edge$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$DependencyGraph$Edge$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$DependencyGraph$EdgeOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$DependencyGraph$Node
+ edu.stanford.nlp.pipeline.CoreNLPProtos$DependencyGraph$Node$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$DependencyGraph$Node$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$DependencyGraph$NodeOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$DependencyGraphOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Document
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Document$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Document$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$DocumentOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Entity
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Entity$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Entity$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$EntityOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$IndexedWord
+ edu.stanford.nlp.pipeline.CoreNLPProtos$IndexedWord$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$IndexedWord$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$IndexedWordOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Language
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Language$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$MapIntString
+ edu.stanford.nlp.pipeline.CoreNLPProtos$MapIntString$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$MapIntString$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$MapIntStringOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$MapStringString
+ edu.stanford.nlp.pipeline.CoreNLPProtos$MapStringString$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$MapStringString$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$MapStringStringOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Mention
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Mention$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Mention$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$MentionOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$NERMention
+ edu.stanford.nlp.pipeline.CoreNLPProtos$NERMention$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$NERMention$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$NERMentionOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$NaturalLogicRelation
+ edu.stanford.nlp.pipeline.CoreNLPProtos$NaturalLogicRelation$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Operator
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Operator$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Operator$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$OperatorOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$ParseTree
+ edu.stanford.nlp.pipeline.CoreNLPProtos$ParseTree$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$ParseTree$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$ParseTreeOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Polarity
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Polarity$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Polarity$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$PolarityOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Quote
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Quote$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Quote$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$QuoteOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Relation
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Relation$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Relation$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$RelationOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$RelationTriple
+ edu.stanford.nlp.pipeline.CoreNLPProtos$RelationTriple$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$RelationTriple$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$RelationTripleOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Section
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Section$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Section$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SectionOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexRequest
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexRequest$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexRequest$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexRequest$Dependencies
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexRequest$Dependencies$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexRequest$Dependencies$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexRequest$DependenciesOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexRequestOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$GraphResult
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$GraphResult$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$GraphResult$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$GraphResultOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$Match
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$Match$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$Match$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$MatchOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$NamedNode
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$NamedNode$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$NamedNode$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$NamedNodeOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$NamedRelation
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$NamedRelation$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$NamedRelation$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$NamedRelationOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$SemgrexResult
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$SemgrexResult$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$SemgrexResult$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponse$SemgrexResultOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SemgrexResponseOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Sentence
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Sentence$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Sentence$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SentenceFragment
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SentenceFragment$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SentenceFragment$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SentenceFragmentOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SentenceOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Sentiment
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Sentiment$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Span
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Span$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Span$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SpanOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SpeakerInfo
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SpeakerInfo$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SpeakerInfo$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$SpeakerInfoOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Timex
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Timex$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Timex$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TimexOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Token
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Token$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$Token$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokenLocation
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokenLocation$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokenLocation$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokenLocationOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokenOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexRequest
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexRequest$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexRequest$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexRequestOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$Match
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$Match$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$Match$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$MatchLocation
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$MatchLocation$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$MatchLocation$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$MatchLocationOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$MatchOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$PatternMatch
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$PatternMatch$1
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$PatternMatch$Builder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponse$PatternMatchOrBuilder
+ edu.stanford.nlp.pipeline.CoreNLPProtos$TokensRegexResponseOrBuilder
+edu/stanford/nlp/ling/tokensregex/demo/TokensRegexAnnotatorDemo.java
+ edu.stanford.nlp.ling.tokensregex.demo.TokensRegexAnnotatorDemo
+edu/stanford/nlp/optimization/InefficientSGDMinimizer.java
+ edu.stanford.nlp.optimization.InefficientSGDMinimizer
+ edu.stanford.nlp.optimization.InefficientSGDMinimizer$1
+edu/stanford/nlp/util/CollectionUtils.java
+ edu.stanford.nlp.util.CollectionUtils
+ edu.stanford.nlp.util.CollectionUtils$1
+ edu.stanford.nlp.util.CollectionUtils$2
+edu/stanford/nlp/stats/ConjugatePrior.java
+ edu.stanford.nlp.stats.ConjugatePrior
+edu/stanford/nlp/optimization/DiffFloatFunction.java
+ edu.stanford.nlp.optimization.DiffFloatFunction
+edu/stanford/nlp/tagger/io/TaggedFileRecord.java
+ edu.stanford.nlp.tagger.io.TaggedFileRecord
+ edu.stanford.nlp.tagger.io.TaggedFileRecord$1
+ edu.stanford.nlp.tagger.io.TaggedFileRecord$Format
+edu/stanford/nlp/tagger/maxent/TaggerConfig.java
+ edu.stanford.nlp.tagger.maxent.TaggerConfig
+ edu.stanford.nlp.tagger.maxent.TaggerConfig$Mode
+edu/stanford/nlp/io/BZip2PipedOutputStream.java
+ edu.stanford.nlp.io.BZip2PipedOutputStream
+edu/stanford/nlp/io/NullOutputStream.java
+ edu.stanford.nlp.io.NullOutputStream
+edu/stanford/nlp/util/StringParsingTask.java
+ edu.stanford.nlp.util.StringParsingTask
+ edu.stanford.nlp.util.StringParsingTask$ParserException
+edu/stanford/nlp/util/UnorderedPair.java
+ edu.stanford.nlp.util.UnorderedPair
+edu/stanford/nlp/ling/tokensregex/MultiWordStringMatcher.java
+ edu.stanford.nlp.ling.tokensregex.MultiWordStringMatcher
+ edu.stanford.nlp.ling.tokensregex.MultiWordStringMatcher$1
+ edu.stanford.nlp.ling.tokensregex.MultiWordStringMatcher$LongestStringComparator
+ edu.stanford.nlp.ling.tokensregex.MultiWordStringMatcher$MatchType
+edu/stanford/nlp/process/DocumentProcessor.java
+ edu.stanford.nlp.process.DocumentProcessor
+edu/stanford/nlp/util/ArraySet.java
+ edu.stanford.nlp.util.ArraySet
+edu/stanford/nlp/sequences/TrueCasingForNISTDocumentReaderAndWriter.java
+ edu.stanford.nlp.sequences.TrueCasingForNISTDocumentReaderAndWriter
+ edu.stanford.nlp.sequences.TrueCasingForNISTDocumentReaderAndWriter$LineToTrueCasesParser
+edu/stanford/nlp/util/Iterables.java
+ edu.stanford.nlp.util.Iterables
+ edu.stanford.nlp.util.Iterables$1
+ edu.stanford.nlp.util.Iterables$10
+ edu.stanford.nlp.util.Iterables$10$1
+ edu.stanford.nlp.util.Iterables$10$1$1
+ edu.stanford.nlp.util.Iterables$11
+ edu.stanford.nlp.util.Iterables$2
+ edu.stanford.nlp.util.Iterables$2$1
+ edu.stanford.nlp.util.Iterables$3
+ edu.stanford.nlp.util.Iterables$4
+ edu.stanford.nlp.util.Iterables$4$1
+ edu.stanford.nlp.util.Iterables$5
+ edu.stanford.nlp.util.Iterables$5$1
+ edu.stanford.nlp.util.Iterables$6
+ edu.stanford.nlp.util.Iterables$6$1
+ edu.stanford.nlp.util.Iterables$7
+ edu.stanford.nlp.util.Iterables$8
+ edu.stanford.nlp.util.Iterables$8$1
+ edu.stanford.nlp.util.Iterables$9
+ edu.stanford.nlp.util.Iterables$IncrementComparator
+edu/stanford/nlp/sequences/LibSVMReaderAndWriter.java
+ edu.stanford.nlp.sequences.LibSVMReaderAndWriter
+ edu.stanford.nlp.sequences.LibSVMReaderAndWriter$ColumnDocParser
+edu/stanford/nlp/tagger/io/TaggedFileReader.java
+ edu.stanford.nlp.tagger.io.TaggedFileReader
+edu/stanford/nlp/stats/DirichletProcess.java
+ edu.stanford.nlp.stats.DirichletProcess
+edu/stanford/nlp/pipeline/SerializedAnnotationCreator.java
+ edu.stanford.nlp.pipeline.SerializedAnnotationCreator
+edu/stanford/nlp/ling/Document.java
+ edu.stanford.nlp.ling.Document
+edu/stanford/nlp/util/AcronymMatcher.java
+ edu.stanford.nlp.util.AcronymMatcher
+ edu.stanford.nlp.util.AcronymMatcher$1
+edu/stanford/nlp/util/StreamGobbler.java
+ edu.stanford.nlp.util.StreamGobbler
+edu/stanford/nlp/process/CoreLabelTokenFactory.java
+ edu.stanford.nlp.process.CoreLabelTokenFactory
+edu/stanford/nlp/ling/tokensregex/demo/MyAnnotations.java
+ edu.stanford.nlp.ling.tokensregex.demo.MyAnnotations
+ edu.stanford.nlp.ling.tokensregex.demo.MyAnnotations$MyTokensAnnotation
+ edu.stanford.nlp.ling.tokensregex.demo.MyAnnotations$MyTypeAnnotation
+ edu.stanford.nlp.ling.tokensregex.demo.MyAnnotations$MyValueAnnotation
+edu/stanford/nlp/ling/HasOffset.java
+ edu.stanford.nlp.ling.HasOffset
+edu/stanford/nlp/pipeline/GenderAnnotator.java
+ edu.stanford.nlp.pipeline.GenderAnnotator
+edu/stanford/nlp/util/FilteredIterator.java
+ edu.stanford.nlp.util.FilteredIterator
+ edu.stanford.nlp.util.FilteredIterator$1
+edu/stanford/nlp/math/package-info.java
+ edu.stanford.nlp.math.package-info
+edu/stanford/nlp/international/french/FrenchMorphoFeatureSpecification.java
+ edu.stanford.nlp.international.french.FrenchMorphoFeatureSpecification
+edu/stanford/nlp/util/Heap.java
+ edu.stanford.nlp.util.Heap
+edu/stanford/nlp/util/ArrayCoreMap.java
+ edu.stanford.nlp.util.ArrayCoreMap
+ edu.stanford.nlp.util.ArrayCoreMap$1
+ edu.stanford.nlp.util.ArrayCoreMap$1$1
+edu/stanford/nlp/sequences/SequenceListener.java
+ edu.stanford.nlp.sequences.SequenceListener
+edu/stanford/nlp/ling/tokensregex/parser/TokenSequenceParseException.java
+ edu.stanford.nlp.ling.tokensregex.parser.TokenSequenceParseException
+edu/stanford/nlp/optimization/CGMinimizer.java
+ edu.stanford.nlp.optimization.CGMinimizer
+ edu.stanford.nlp.optimization.CGMinimizer$OneDimDiffFunction
+ edu.stanford.nlp.optimization.CGMinimizer$Triple
+edu/stanford/nlp/objectbank/IdentityFunction.java
+ edu.stanford.nlp.objectbank.IdentityFunction
+edu/stanford/nlp/util/logging/RedwoodPrintStream.java
+ edu.stanford.nlp.util.logging.RedwoodPrintStream
+edu/stanford/nlp/util/logging/LogRecordHandler.java
+ edu.stanford.nlp.util.logging.LogRecordHandler
+edu/stanford/nlp/pipeline/Annotator.java
+ edu.stanford.nlp.pipeline.Annotator
+ edu.stanford.nlp.pipeline.Annotator$1
+edu/stanford/nlp/optimization/ResultStoringMonitor.java
+ edu.stanford.nlp.optimization.ResultStoringMonitor
+edu/stanford/nlp/util/IdentityHashSet.java
+ edu.stanford.nlp.util.IdentityHashSet
+edu/stanford/nlp/util/concurrent/ConcurrentHashCounter.java
+ edu.stanford.nlp.util.concurrent.ConcurrentHashCounter
+ edu.stanford.nlp.util.concurrent.ConcurrentHashCounter$1
+ edu.stanford.nlp.util.concurrent.ConcurrentHashCounter$2
+ edu.stanford.nlp.util.concurrent.ConcurrentHashCounter$2$1
+ edu.stanford.nlp.util.concurrent.ConcurrentHashCounter$3
+ edu.stanford.nlp.util.concurrent.ConcurrentHashCounter$3$1
+ edu.stanford.nlp.util.concurrent.ConcurrentHashCounter$3$1$1
+edu/stanford/nlp/pipeline/TokenizerAnnotator.java
+ edu.stanford.nlp.pipeline.TokenizerAnnotator
+ edu.stanford.nlp.pipeline.TokenizerAnnotator$1
+ edu.stanford.nlp.pipeline.TokenizerAnnotator$TokenizerType
+edu/stanford/nlp/sequences/BestSequenceFinder.java
+ edu.stanford.nlp.sequences.BestSequenceFinder
+edu/stanford/nlp/util/logging/Style.java
+ edu.stanford.nlp.util.logging.Style
+edu/stanford/nlp/ling/WordFactory.java
+ edu.stanford.nlp.ling.WordFactory
+edu/stanford/nlp/math/SloppyMath.java
+ edu.stanford.nlp.math.SloppyMath
+edu/stanford/nlp/ling/Datum.java
+ edu.stanford.nlp.ling.Datum
+edu/stanford/nlp/util/DeltaIndex.java
+ edu.stanford.nlp.util.DeltaIndex
+ edu.stanford.nlp.util.DeltaIndex$1
+edu/stanford/nlp/util/RegexStringFilter.java
+ edu.stanford.nlp.util.RegexStringFilter
+edu/stanford/nlp/util/Trilean.java
+ edu.stanford.nlp.util.Trilean
+edu/stanford/nlp/stats/IntCounter.java
+ edu.stanford.nlp.stats.IntCounter
+ edu.stanford.nlp.stats.IntCounter$1
+ edu.stanford.nlp.stats.IntCounter$1$1
+ edu.stanford.nlp.stats.IntCounter$1$1$1
+ edu.stanford.nlp.stats.IntCounter$2
+ edu.stanford.nlp.stats.IntCounter$3
+ edu.stanford.nlp.stats.IntCounter$3$1
+ edu.stanford.nlp.stats.IntCounter$NaturalComparator
+edu/stanford/nlp/util/IntTuple.java
+ edu.stanford.nlp.util.IntTuple
+edu/stanford/nlp/process/Stemmer.java
+ edu.stanford.nlp.process.Stemmer
+edu/stanford/nlp/ling/AbstractCoreLabel.java
+ edu.stanford.nlp.ling.AbstractCoreLabel
+edu/stanford/nlp/io/StringOutputStream.java
+ edu.stanford.nlp.io.StringOutputStream
+edu/stanford/nlp/tagger/maxent/History.java
+ edu.stanford.nlp.tagger.maxent.History
+edu/stanford/nlp/process/TokenizerFactory.java
+ edu.stanford.nlp.process.TokenizerFactory
+edu/stanford/nlp/sequences/ColumnTabDocumentReaderWriter.java
+ edu.stanford.nlp.sequences.ColumnTabDocumentReaderWriter
+ edu.stanford.nlp.sequences.ColumnTabDocumentReaderWriter$BufferedReaderIterator
+ edu.stanford.nlp.sequences.ColumnTabDocumentReaderWriter$ColumnDocBufferedGetNext
+ edu.stanford.nlp.sequences.ColumnTabDocumentReaderWriter$ColumnDocBufferedGetNextTokens
+ edu.stanford.nlp.sequences.ColumnTabDocumentReaderWriter$GetNextFunction
+edu/stanford/nlp/util/TypesafeMap.java
+ edu.stanford.nlp.util.TypesafeMap
+ edu.stanford.nlp.util.TypesafeMap$Key
+edu/stanford/nlp/util/DataFilePaths.java
+ edu.stanford.nlp.util.DataFilePaths
+edu/stanford/nlp/international/spanish/process/SpanishLexer.java
+ edu.stanford.nlp.international.spanish.process.SpanishLexer
+ edu.stanford.nlp.international.spanish.process.SpanishLexer$1
+ edu.stanford.nlp.international.spanish.process.SpanishLexer$UntokenizableOptions
+edu/stanford/nlp/ling/WordTagFactory.java
+ edu.stanford.nlp.ling.WordTagFactory
+edu/stanford/nlp/stats/AbstractCounter.java
+ edu.stanford.nlp.stats.AbstractCounter
+edu/stanford/nlp/tagger/maxent/MaxentTaggerGUI.java
+ edu.stanford.nlp.tagger.maxent.MaxentTaggerGUI
+ edu.stanford.nlp.tagger.maxent.MaxentTaggerGUI$1
+ edu.stanford.nlp.tagger.maxent.MaxentTaggerGUI$2
+ edu.stanford.nlp.tagger.maxent.MaxentTaggerGUI$3
+edu/stanford/nlp/optimization/ResultStoringFloatMonitor.java
+ edu.stanford.nlp.optimization.ResultStoringFloatMonitor
+edu/stanford/nlp/util/PropertiesUtils.java
+ edu.stanford.nlp.util.PropertiesUtils
+ edu.stanford.nlp.util.PropertiesUtils$Property
+edu/stanford/nlp/io/ui/package-info.java
+ edu.stanford.nlp.io.ui.package-info
+edu/stanford/nlp/process/CoreLabelProcessor.java
+ edu.stanford.nlp.process.CoreLabelProcessor
+edu/stanford/nlp/tagger/maxent/DictionaryExtractor.java
+ edu.stanford.nlp.tagger.maxent.DictionaryExtractor
+edu/stanford/nlp/util/PaddedList.java
+ edu.stanford.nlp.util.PaddedList
+edu/stanford/nlp/util/ArrayUtils.java
+ edu.stanford.nlp.util.ArrayUtils
+edu/stanford/nlp/tagger/util/CountClosedTags.java
+ edu.stanford.nlp.tagger.util.CountClosedTags
+edu/stanford/nlp/io/IOUtils.java
+ edu.stanford.nlp.io.IOUtils
+ edu.stanford.nlp.io.IOUtils$1
+ edu.stanford.nlp.io.IOUtils$1$1
+ edu.stanford.nlp.io.IOUtils$2
+ edu.stanford.nlp.io.IOUtils$EolPreservingLineReaderIterable
+ edu.stanford.nlp.io.IOUtils$EolPreservingLineReaderIterable$1
+ edu.stanford.nlp.io.IOUtils$GetLinesIterable
+ edu.stanford.nlp.io.IOUtils$GetLinesIterable$1
+ edu.stanford.nlp.io.IOUtils$LineReaderIterable
+ edu.stanford.nlp.io.IOUtils$LineReaderIterable$1
+edu/stanford/nlp/sequences/BeamBestSequenceFinder.java
+ edu.stanford.nlp.sequences.BeamBestSequenceFinder
+ edu.stanford.nlp.sequences.BeamBestSequenceFinder$TagSeq
+ edu.stanford.nlp.sequences.BeamBestSequenceFinder$TagSeq$TagList
+edu/stanford/nlp/sequences/FactoredSequenceListener.java
+ edu.stanford.nlp.sequences.FactoredSequenceListener
+edu/stanford/nlp/stats/SimpleGoodTuring.java
+ edu.stanford.nlp.stats.SimpleGoodTuring
+edu/stanford/nlp/pipeline/CoNLLOutputter.java
+ edu.stanford.nlp.pipeline.CoNLLOutputter
+edu/stanford/nlp/util/ByteStreamGobbler.java
+ edu.stanford.nlp.util.ByteStreamGobbler
+edu/stanford/nlp/ling/tokensregex/CoreMapExpressionNodePattern.java
+ edu.stanford.nlp.ling.tokensregex.CoreMapExpressionNodePattern
+edu/stanford/nlp/process/JFlexDummyLexer.java
+ edu.stanford.nlp.process.JFlexDummyLexer
+edu/stanford/nlp/util/TwoDimensionalCollectionValuedMap.java
+ edu.stanford.nlp.util.TwoDimensionalCollectionValuedMap
+edu/stanford/nlp/util/ConcatenationIterator.java
+ edu.stanford.nlp.util.ConcatenationIterator
+edu/stanford/nlp/international/morph/MorphoFeatures.java
+ edu.stanford.nlp.international.morph.MorphoFeatures
