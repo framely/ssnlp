@@ -8,6 +8,7 @@
 
 # stuff gets built here
 classes/**
+build/**
 
 # IntelliJ IDEA
 *.eml
