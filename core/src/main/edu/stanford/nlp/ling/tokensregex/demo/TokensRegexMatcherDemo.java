@@ -8,10 +8,8 @@ import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.tokensregex.MultiPatternMatcher;
 import edu.stanford.nlp.ling.tokensregex.SequenceMatchResult;
 import edu.stanford.nlp.ling.tokensregex.TokenSequencePattern;
-import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.pipeline.*;
 import edu.stanford.nlp.util.CoreMap;
-import edu.stanford.nlp.util.PropertiesUtils;
 
 /**
  * @author Christopher Manning
@@ -21,11 +19,24 @@ public class TokensRegexMatcherDemo {
   private TokensRegexMatcherDemo() {} // static main only
 
   public static void main(String[] args) {
-    StanfordCoreNLP pipeline = new StanfordCoreNLP(
-            PropertiesUtils.asProperties("annotators", "tokenize,ssplit"));
+
+    AnnotationPipeline pipeline = new AnnotationPipeline();
+    final boolean verbose = false;
+    pipeline.addAnnotator(new TokenizerAnnotator(verbose, "en"));
+    pipeline.addAnnotator(new WordsToSentencesAnnotator(verbose));
+
     Annotation annotation = new Annotation("Casey is 21. Sally Atkinson's age is 30.");
     pipeline.annotate(annotation);
+    {
+      List<CoreLabel> tokens = annotation.get(CoreAnnotations.TokensAnnotation.class);
+      for (int i = 0; i < tokens.size(); i++) {
+        System.out.println(tokens.get(i).toString(CoreLabel.OutputFormat.VALUE_MAP));
+        System.out.println(tokens.get(i).beginPosition() + ":" + tokens.get(i).endPosition());
+      }
+    }
     List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+
+    System.out.println(annotation.toString());
 
     List<TokenSequencePattern> tokenSequencePatterns = new ArrayList<>();
     String[] patterns = {  "(?$who [ ner: PERSON]+ ) /is/ (?$age [ pos: CD ] )",

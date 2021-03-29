@@ -92,10 +92,6 @@ public class TokensRegexAnnotator implements Annotator {
     }
   }
 
-  public TokensRegexAnnotator(Properties props) {
-    this(null, props);
-  }
-
 
   private static void addTokenOffsets(CoreMap annotation) {
     // We are going to mark the token begin and token end for each token
